@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts-config PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 1.3//EN" "http://struts.apache.org/dtds/struts-config_1_3.dtd">
+
+<struts-config>
+  <form-beans >
+    <form-bean name="userForm" type="com.ThreeDSpace.struts.form.UserForm" />
+    <form-bean name="signInForm" type="com.ThreeDSpace.struts.form.SignInForm" />
+    <form-bean name="checkOutMyCartForm" type="com.ThreeDSpace.struts.form.CheckOutMyCartForm" /> 
+ 
+  </form-beans>
+
+  <global-exceptions />
+  <global-forwards >
+    <forward name="Err" path="/WEB-INF/Err.jsp" />
+    <forward name="GoToHomePage" path="/WEB-INF/HomePage.jsp" />
+
+  </global-forwards>
+
+  <action-mappings >
+    <action
+      attribute="userForm"
+      input="/WEB-INF/SignUp.jsp"
+      name="userForm"
+      path="/signUp"
+      scope="request"
+      type="com.ThreeDSpace.struts.action.SignUpAction"
+      cancellable="true">
+      <forward name="SignUpOk" path="/WEB-INF/SignUpOk.jsp" />
+    </action>
+    <action
+      attribute="signInForm"
+      input="/WEB-INF/SignIn.jsp"
+      name="signInForm"
+      path="/signIn"
+      scope="request"
+      type="com.ThreeDSpace.struts.action.SignInAction"
+      cancellable="true" >
+      <forward name="SignInOk" path="/WEB-INF/HomePage.jsp" />
+      
+      <forward name="SignInErr" path="/WEB-INF/SignIn.jsp" />
+    </action>
+    <action
+      attribute="checkOutMyCartForm"
+      input="/WEB-INF/Goods.jsp"
+      name="checkOutMyCartForm"
+      parameter="type"
+      path="/shoppingCl"
+      scope="request"
+      type="com.ThreeDSpace.struts.action.ShoppingClAction"
+      cancellable="true">
+      <forward name="GoToOrder" path="/WEB-INF/MyOrders.jsp" />
+      <forward name="GoToFavorites" path="/WEB-INF/MyFavorites.jsp" />
+      <forward name="SubmitOrderOk" path="/WEB-INF/SubmitOrderOk.jsp" />
+      <forward name="BackToGoods" path="/WEB-INF/Goods.jsp" />
+      <forward name="GoToCart" path="/WEB-INF/ShoppingCart.jsp" />
+    </action>
+
+    <action
+      parameter="flag"
+      path="/goTo"
+      type="com.ThreeDSpace.struts.action.GoToAction"
+      cancellable="true">
+      
+      
+      <forward name="GoToSignUp" path="/WEB-INF/SignUp.jsp" />
+      
+      
+      
+      <forward name="GoToMyFavorites" path="/WEB-INF/MyFavorites.jsp" />
+      <forward name="GoToGoods" path="/WEB-INF/Goods.jsp" />
+      <forward name="GoToShoppingCart" path="/WEB-INF/ShoppingCart.jsp" />
+      <forward name="GoToMyOrders" path="/WEB-INF/MyOrders.jsp" />
+      <forward name="GoToLoginRegister" path="/WEB-INF/SignIn.jsp" />
+      
+    </action>
+
+
+
+    
+    
+    
+
+    
+
+  </action-mappings>
+
+  <message-resources parameter="com.ThreeDSpace.struts.ApplicationResources" />
+</struts-config>
+
