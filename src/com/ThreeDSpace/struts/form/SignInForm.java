@@ -14,16 +14,28 @@ import org.apache.struts.action.ActionForm;
  * @struts.form name="signInForm"
  */
 public class SignInForm extends ActionForm {
+<<<<<<< HEAD
 	private String userId;
+=======
+	private String userPhoneNumber;
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	private String userPassword;
 	private String isKeepInfo;
 	private String checkCode;
 	
+<<<<<<< HEAD
 	public String getUserId() {
 		return userId;
 	}
 	public void setUserId(String userId) {
 		this.userId = userId;
+=======
+	public String getUserPhoneNumber() {
+		return userPhoneNumber;
+	}
+	public void setUserPhoneNumber(String userPhoneNumber) {
+		this.userPhoneNumber = userPhoneNumber;
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	}
 	public String getUserPassword() {
 		return userPassword;

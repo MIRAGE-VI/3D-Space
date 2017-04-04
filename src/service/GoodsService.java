@@ -23,6 +23,7 @@ public class GoodsService {
 		}
 		return goods;
 	}
+<<<<<<< HEAD
     public ArrayList<Goods> getAll() {
     	ArrayList<Goods> list = new ArrayList<Goods>();
      // Goods goods=new Goods();
@@ -67,4 +68,7 @@ public class GoodsService {
     	return list;
     }
     
+=======
+
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 }

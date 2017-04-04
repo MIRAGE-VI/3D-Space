@@ -63,13 +63,18 @@
       
       
       <forward name="GoToSignUp" path="/WEB-INF/SignUp.jsp" />
+<<<<<<< HEAD
       <forward name="GoToCustomize" path="/WEB-INF/Customize.jsp" />
+=======
+      
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
       
       
       <forward name="GoToMyFavorites" path="/WEB-INF/MyFavorites.jsp" />
       <forward name="GoToGoods" path="/WEB-INF/Goods.jsp" />
       <forward name="GoToShoppingCart" path="/WEB-INF/ShoppingCart.jsp" />
       <forward name="GoToMyOrders" path="/WEB-INF/MyOrders.jsp" />
+<<<<<<< HEAD
       <forward name="GoToSignInUp" path="/WEB-INF/SignIn.jsp" />
       
     </action>
@@ -85,6 +90,11 @@
       cancellable="true">
       <forward name="comment" path="/WEB-INF/Goods.jsp" />
     </action>
+=======
+      <forward name="GoToLoginRegister" path="/WEB-INF/SignIn.jsp" />
+      
+    </action>
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 
 
 

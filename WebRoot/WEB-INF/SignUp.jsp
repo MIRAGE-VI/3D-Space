@@ -37,6 +37,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 
   <body style = "background-color:rgb(238,238,238);">
   <div style = "height:600px">
+<<<<<<< HEAD
     <br>
 	<div style="height:100px;width:380px;margin-left: auto; margin-right: auto;">
         <img src="img/logo.png" alt="3DSpace" height="175" width="400">        
@@ -46,6 +47,21 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
     
 		<form  class="form-signin" action = '/3D-Space/signUp.do' method="post">
 			<!-- <h2 class="form-signin-heading">Please sign up</h2> -->
+=======
+  
+	<div style="height:100px;width:380px;margin-left: auto;margin-right: auto;">
+    <%-- <h1>LOGO预留位置</h1> --%>
+    <br>
+    <br>
+    &nbsp&nbsp<img src='/3D-Space/img/key.gif'/>
+    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+    <img src='/3D-Space/img/key.gif'/> <hr/>
+    </div>
+    <div class="container" style="width:400px;margin-top:50px"> 
+    
+		<form  class="form-signin" action = '/3D-Space/signUp.do' method="post">
+			<h2 class="form-signin-heading">Please sign up</h2>
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 			
 			<input type="text" name="userName" class="form-control" placeholder="Name" required autofocus>
 	        <br>

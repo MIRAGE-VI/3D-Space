@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 <%@ page language="java" import="java.util.*,service.*,domain.*" pageEncoding="utf-8"%>
+=======
+<%@ page language="java" import="java.util.*" pageEncoding="utf-8"%>
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 <%
 String path = request.getContextPath();
 String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
@@ -60,7 +64,11 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 		
       </form>
       <ul class="nav navbar-nav navbar-left" style = "width:40px">
+<<<<<<< HEAD
         <li><a href="/3D-Space/goTo.do?flag=GoToSignInUp">Login/Register</a></li>
+=======
+        <li><a href="#">Login/Register</a></li>
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 		</ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
@@ -68,6 +76,11 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 
 
  
+<<<<<<< HEAD
+=======
+ 
+<!--ÔÚÕâÀï±àÐ´ÄãµÄ´úÂë-->
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 <div
   style=" width:600px;float:left;" class="am-slider am-slider-default"
   data-am-flexslider="{controlNav: 'thumbnails', directionNav: false, slideshow: false}">
@@ -88,20 +101,32 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   </ul>
   
 </div>
+<<<<<<< HEAD
 <% String id = (String)request.getParameter("GoodsId"); %>
 <% GoodsService g = new GoodsService();%>
 <% Goods MyGoods = g.getGoodsById(id); %>
 
+=======
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 
 <div class="row" >
   <div class="col-sm-6 col-md-4" >
    <div class="thumbnail" style="width:285px;height:505px;float:left;background-color:RGB(248,248,248);">
+<<<<<<< HEAD
    <h2 style = "margin:15px">3Dprint&nbsp<%= MyGoods.getG_name() %></h2>
    <h4 style = "margin:15px">Price: <span style="text-decoration:line-through;">$1<%= MyGoods.getG_price() %> &nbsp</span>&nbsp&nbsp<%= MyGoods.getG_price() %></h4>
    <h3 style = "margin:15px">Choose Your Material:</h3>
     
 <div class="btn-group" style = "margin-top:10px;margin-left:20px;">
   <button type="button" class="btn btn-danger" style = "width:207px" >Materials: </button>
+=======
+   <h2 style = "margin:15px">3D打印一个狗</h2>
+   <h4 style = "margin:15px">价格：<span style="text-decoration:line-through;">￥8.99 &nbsp</span>&nbsp&nbsp5.99</h4>
+   <h3 style = "margin:15px">Choose Your Material:</h3>
+    
+<div class="btn-group" style = "margin-top:10px;margin-left:20px;">
+  <button type="button" class="btn btn-danger" style = "width:207px" >可选材料：</button>
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
   <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
   <span class="caret"></span>
   <span class="sr-only">Toggle Dropdown</span>
@@ -110,8 +135,13 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
     <li><a href="#">ABS</a></li>
     <li><a href="#">PVC</a></li>
     <li role="separator" class="divider"></li>
+<<<<<<< HEAD
     <li><a href="#">Chocolate</a></li>
     <li><a href="#">Sugar</a></li>
+=======
+    <li><a href="#">巧克力</a></li>
+    <li><a href="#">糖</a></li>
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
   </ul>
 </div>
 
@@ -124,13 +154,18 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 <h3 style = "margin:15px">Choose Your Color:</h3>  
 <div class="btn-group" style = "margin-top:10px;margin-left:20px;">
 
+<<<<<<< HEAD
   <button type="button" class="btn btn-warning" style = "width:207px" >Color：</button>
+=======
+  <button type="button" class="btn btn-warning" style = "width:207px" >可选颜色：</button>
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
   <button type="button" class="btn btn-warning dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
     <span class="caret"></span>
     <span class="sr-only">Toggle Dropdown</span>
   </button>
   
   <ul class="dropdown-menu" style = "width:233px" >
+<<<<<<< HEAD
     <li><a href="#">Yellow</a></li>
     <li><a href="#">Blue</a></li>
     
@@ -138,13 +173,26 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
     
     <li><a href="#">Transparent</a></li>
     <li><a href="#">Metallic color</a></li>
+=======
+    <li><a href="#">黄色</a></li>
+    <li><a href="#">蓝色</a></li>
+    
+    <li role="separator" class="divider"></li>
+    
+    <li><a href="#">透明</a></li>
+    <li><a href="#">金属色，虽然并没有</a></li>
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
   </ul>
   
 </div>
 
 
 <div class="input-group" style = "margin-top:44px;margin-left:19px;width:235px">
+<<<<<<< HEAD
   <span class="input-group-addon" id="basic-addon1">Amount: </span>
+=======
+  <span class="input-group-addon" id="basic-addon1">数量：</span>
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
   <input type="text" class="form-control" placeholder="300" aria-describedby="basic-addon1">
 </div>
 
@@ -163,7 +211,11 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 
  <!-- Button trigger modal -->
 <button style = "margin-left:19px;margin-top:10px;width:236px" type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">
+<<<<<<< HEAD
  Comment
+=======
+  我要评论
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 </button>
 
 <!-- Modal -->
@@ -172,12 +224,17 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+<<<<<<< HEAD
         <h4 class="modal-title" id="myModalLabel">Please input your comment:</h4>
+=======
+        <h4 class="modal-title" id="myModalLabel">杀死那个石家庄人</h4>
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
       </div>
 
 
 
 
+<<<<<<< HEAD
 <form action="comment.do"  method="post">
 
     <div class="modal-body">
@@ -189,6 +246,18 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
         <button type="submit" class="btn btn-primary">Submit</button>
+=======
+<form >
+
+    <div class="modal-body">
+    <label>评论</label>
+    <input type="comment" style = "height:60px" class="form-control" id="comment" placeholder="在这里输入你的评论：">
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Submit</button>
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
       </div>
 
 
@@ -245,6 +314,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 
 
     <div class="am-tab-panel am-fade" id="tab3">
+<<<<<<< HEAD
     
      <% CommentService cs = new CommentService();%>
      <% UserService us = new UserService(); %>
@@ -254,18 +324,31 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 	 <article class="am-comment">
   <a href="#link-to-user-home">
     <img src="img/user<%=list.get(i).getU_id() %>.jpg" alt="" class="am-comment-avatar" width="48" height="48"/>
+=======
+     
+	 
+	 <article class="am-comment">
+  <a href="#link-to-user-home">
+    <img src="" alt="" class="am-comment-avatar" width="48" height="48"/>
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
   </a>
 
   <div class="am-comment-main">
     <header class="am-comment-hd">
       <!--<h3 class="am-comment-title">ÆÀÂÛ±êÌâ</h3>-->
       <div class="am-comment-meta">
+<<<<<<< HEAD
         <a href="#link-to-user" class="am-comment-author"><%= str %></a>
         commented in  &nbsp &nbsp<time datetime="2013-07-27T04:54:29-07:00" title="Comment"><%= list.get(i).getC_time() %></time>
+=======
+        <a href="#link-to-user" class="am-comment-author">Ä³ÈË</a>
+        ÆÀÂÛÓÚ <time datetime="2013-07-27T04:54:29-07:00" title="2013Äê7ÔÂ27ÈÕ ÏÂÎç7:54 ¸ñÁÖÄáÖÎ±ê×¼Ê±¼ä+0800">2014-7-12 15:30</time>
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
       </div>
     </header>
 
     <div class="am-comment-bd">
+<<<<<<< HEAD
       <%= list.get(i).getC_Comment() %>
     </div>
   </div>
@@ -277,6 +360,16 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 
 
 
+=======
+      so so so so so so nice!!!!!
+    </div>
+  </div>
+
+
+
+
+</article>
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 
 
 
@@ -296,6 +389,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 
 
 </div>
+<<<<<<< HEAD
 <script language="JavaScript"> 
 function getDate()
 {
@@ -308,6 +402,8 @@ window.onload = function(){
     document.getElementById('time').value = getDate();
 };
 </script> 
+=======
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 <script src="js/jquery.min.js"></script>
 
 <script src="js/bootstrap.min.js"></script>

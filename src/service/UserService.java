@@ -8,7 +8,10 @@ import util.SqlHelper;
 
 
 
+<<<<<<< HEAD
 import domain.Goods;
+=======
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 import domain.User;
 
 
@@ -20,9 +23,14 @@ public class UserService {
 		//到数据库中取验证
 		
 		//使用SqlHelper来完成查询任务
+<<<<<<< HEAD
 		String sql="select * from  User where U_name='" + user.getU_name() +"' and U_password=?";
 		System.out.print(sql);
 		String parameters[]={MD5_test.MD5(user.getU_password())};//将用户输入的密码用MD5算法加密，再和数据库验证
+=======
+		String sql="select * from  User where U_phoneNumber=? and U_password=?";
+		String parameters[]={user.getU_phoneNumber(),MD5_test.MD5(user.getU_password())};//将用户输入的密码用MD5算法加密，再和数据库验证
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 		ArrayList al=new SqlHelper().executeQuery(sql, parameters);
 		if(al.size()==0){
 			return false;
@@ -36,6 +44,7 @@ public class UserService {
 			return true;
 		}
 	}
+<<<<<<< HEAD
 	public String findById(int id) {
 		String sql="select U_name from  User where U_id=" + id;
 		String parameters[]= null;//将用户输入的密码用MD5算法加密，再和数据库验证
@@ -72,6 +81,12 @@ public class UserService {
 		if(al.size()  != 0) {
 			return false;
 		}
+=======
+	
+	//添加
+	public boolean addUser(User user){
+		boolean b=true;
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 		String sql="insert into User values(0,?,?,?,?,?)";
 		String parameters[]={user.getU_name(),user.getU_email(),user.getU_password(),user.getU_phoneNumber(),user.getU_address()};
 		

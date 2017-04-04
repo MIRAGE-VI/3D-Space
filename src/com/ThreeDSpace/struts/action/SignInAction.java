@@ -49,18 +49,28 @@ public class SignInAction extends Action {
 			HttpServletRequest request, HttpServletResponse response) {
 		SignInForm signInForm = (SignInForm) form;// TODO Auto-generated method stub
 			
+<<<<<<< HEAD
 		String userId=signInForm.getUserId()+"";
 		System.out.println(userId);
 		String userPassword=signInForm.getUserPassword();
 		//String userName = signInForm.get
+=======
+		String userPhoneNumber=signInForm.getUserPhoneNumber();
+		String userPassword=signInForm.getUserPassword();
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 		String isKeepInfo=signInForm.getIsKeepInfo();
 		String checkCode=signInForm.getCheckCode();
 		
 		UserService userService=new UserService();
 		User user=new User();
+<<<<<<< HEAD
 		
 	//	user.setU_name(u_name);
 		user.setU_name(userId);
+=======
+		//user.setU_id(Integer.parseInt(userId));
+		user.setU_phoneNumber(userPhoneNumber);
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 		user.setU_password(userPassword);
 		
 		//取出session中验证码
@@ -68,7 +78,11 @@ public class SignInAction extends Action {
 		if(isKeepInfo!=null && isKeepInfo.equals("remember")){
 			//用户信息记住到cookie
 			//创建cookie并保存用户信息到登录用户的机器
+<<<<<<< HEAD
 			Cookie cookie1=new Cookie("userId",userId);
+=======
+			Cookie cookie1=new Cookie("userPhoneNumber",userPhoneNumber);
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 			Cookie cookie2=new Cookie("userPassword",userPassword);
 			cookie1.setMaxAge(3600*24*30);
 			cookie2.setMaxAge(3600*24*30);
@@ -77,8 +91,11 @@ public class SignInAction extends Action {
 			
 			if(checkCode!=null && checkCode.equals(checkCode2)){
 				if(userService.checkUser(user)){
+<<<<<<< HEAD
 					user = userService.findByName(userId);
 					System.out.println(user.getU_email());
+=======
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 					//把用户信息保存到session
 					request.getSession().setAttribute("SignInUser", user);
 					
@@ -117,8 +134,11 @@ public class SignInAction extends Action {
 			if(checkCode!=null && checkCode.equals(checkCode2)){
 				if(userService.checkUser(user)){
 					//把用户信息保存到session
+<<<<<<< HEAD
 					user = userService.findByName(userId);
 					System.out.println(user.getU_email());
+=======
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 					request.getSession().setAttribute("SignInUser", user);
 					
 					if(request.getSession().getAttribute("MyCart")==null){

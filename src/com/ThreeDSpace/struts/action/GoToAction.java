@@ -41,6 +41,14 @@ public class GoToAction extends DispatchAction {
 		return mapping.findForward("GoToSignUp");	
 	}
 	
+<<<<<<< HEAD
+=======
+	public ActionForward GoToLoginRegister(ActionMapping mapping, ActionForm form,
+			HttpServletRequest request, HttpServletResponse response) {
+		// TODO Auto-generated method stub
+		return mapping.findForward("GoToLoginRegister");	
+	}
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	public ActionForward GoToGoods(ActionMapping mapping, ActionForm form,
 			HttpServletRequest request, HttpServletResponse response) {
 		// TODO Auto-generated method stub
@@ -50,6 +58,7 @@ public class GoToAction extends DispatchAction {
 		
 	}
 	
+<<<<<<< HEAD
 	public ActionForward GoToCustomize(ActionMapping mapping, ActionForm form,
 			HttpServletRequest request, HttpServletResponse response) {
 		// TODO Auto-generated method stub
@@ -70,20 +79,42 @@ public class GoToAction extends DispatchAction {
 			//简单地跳转到购物车页面，直接取出购物车，不需要添加
 			MyCart myCart=(MyCart) request.getSession().getAttribute("MyCart");
 					
+=======
+	public ActionForward GoToShoppingCart(ActionMapping mapping, ActionForm form,
+			HttpServletRequest request, HttpServletResponse response) {
+		// TODO Auto-generated method stub
+		//简单地跳转到购物车页面，直接取出购物车，不需要添加
+		if(request.getSession().getAttribute("SignInUser")==null){
+			request.setAttribute("ErrInfo", "Please sign in or register first!");
+			return mapping.findForward("Err");	
+		}else{
+			MyCart myCart=(MyCart) request.getSession().getAttribute("MyCart");
+			
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 			//准备显示，不会准备数据的话会报空指针错误
 			request.setAttribute("MyCartList", myCart.ShowMyCart());
 			request.setAttribute("TotalPrice", myCart.GetTotalPrice()+"");
 			
+<<<<<<< HEAD
 			return mapping.findForward("GoToShoppingCart");
+=======
+			return mapping.findForward("GoToShoppingCart");	
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 		}
 	}
 	
 	public ActionForward GoToMyOrders(ActionMapping mapping, ActionForm form,
 			HttpServletRequest request, HttpServletResponse response) {
 		// TODO Auto-generated method stub
+<<<<<<< HEAD
 		if(request.getSession().getAttribute("SignInUser") == null){
 			request.setAttribute("ErrInfo", "Please sign in or sign up first!");
 			return mapping.findForward("Err");
+=======
+		if(request.getSession().getAttribute("SignInUser")==null){
+			request.setAttribute("ErrInfo", "Please sign in or register first!");
+			return mapping.findForward("Err");	
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 		}else{
 			//简单地跳转到购物车页面，直接取出购物车，不需要添加
 			MyCart myCart=(MyCart) request.getSession().getAttribute("MyCart");
@@ -93,7 +124,11 @@ public class GoToAction extends DispatchAction {
 			request.setAttribute("MyCartList", myCart.ShowMyCart());
 			request.setAttribute("TotalPrice", myCart.GetTotalPrice()+"");
 			return mapping.findForward("GoToMyOrders");
+<<<<<<< HEAD
 		}
+=======
+		}	
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	}
 	
 	public ActionForward GoToHomePage(ActionMapping mapping, ActionForm form,
@@ -106,9 +141,15 @@ public class GoToAction extends DispatchAction {
 	public ActionForward GoToMyFavorites(ActionMapping mapping, ActionForm form,
 			HttpServletRequest request, HttpServletResponse response) {
 		// TODO Auto-generated method stub
+<<<<<<< HEAD
 		if(request.getSession().getAttribute("SignInUser") == null){
 			request.setAttribute("ErrInfo", "Please sign in or sign up first!");
 			return mapping.findForward("Err");
+=======
+		if(request.getSession().getAttribute("SignInUser")==null){
+			request.setAttribute("ErrInfo", "Please sign in or register first!");
+			return mapping.findForward("Err");	
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 		}else{
 			MyFavorites myFavorites=(MyFavorites) request.getSession().getAttribute("MyFavorites");
 			//准备显示
@@ -116,6 +157,7 @@ public class GoToAction extends DispatchAction {
 			return mapping.findForward("GoToMyFavorites");
 		}
 	}
+<<<<<<< HEAD
 	
 	public ActionForward GoToSignInUp(ActionMapping mapping, ActionForm form,
 			HttpServletRequest request, HttpServletResponse response) {
@@ -125,4 +167,6 @@ public class GoToAction extends DispatchAction {
 	}
 	
 	
+=======
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 }

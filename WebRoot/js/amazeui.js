@@ -3284,12 +3284,20 @@ return /******/ (function(modules) { // webpackBootstrap
 	  },
 
 	  zh_cn: {
+<<<<<<< HEAD
 	    ios: 'Â¶ÇË¶ÅÊääÂ∫îÁî®Á®ãÂºèÂä†Ëá≥‰∏ªÂ±èÂπï,ËØ∑ÁÇπÂáª%icon, ÁÑ∂Âêé<strong>Âä†Ëá≥‰∏ªÂ±èÂπï</strong>',
+=======
+	    ios: '»Á“™∞—”¶”√≥Ã Ωº”÷¡÷˜∆¡ƒª,«Îµ„ª˜%icon, »ª∫Û<strong>º”÷¡÷˜∆¡ƒª</strong>',
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	    android: 'To add this web app to the home screen open the browser option menu and tap on <strong>Add to homescreen</strong>. <small>The menu can be accessed by pressing the menu hardware button if your device has one, or by tapping the top right menu icon <span class="ath-action-icon">icon</span>.</small>'
 	  },
 
 	  zh_tw: {
+<<<<<<< HEAD
 	    ios: 'Â¶ÇË¶ÅÊääÊáâÁî®Á®ãÂºèÂä†Ëá≥‰∏ªÂ±èÂπï, Ë´ãÈªûÊìä%icon, ÁÑ∂Âæå<strong>Âä†Ëá≥‰∏ªÂ±èÂπï</strong>.',
+=======
+	    ios: '»Á“™∞—ë™”√≥Ã Ωº”÷¡÷˜∆¡ƒª, ’à¸cìÙ%icon, »ª··<strong>º”÷¡÷˜∆¡ƒª</strong>.',
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	    android: 'To add this web app to the home screen open the browser option menu and tap on <strong>Add to homescreen</strong>. <small>The menu can be accessed by pressing the menu hardware button if your device has one, or by tapping the top right menu icon <span class="ath-action-icon">icon</span>.</small>'
 	  }
 	};
@@ -4157,7 +4165,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	  this.$element
 	    .one(UI.support.transition.end, $.proxy(complete, this))
 	    .emulateTransitionEnd(300)
+<<<<<<< HEAD
 	    .css({height: scrollHeight}); // ÂΩìÊäòÂè†ÁöÑÂÆπÂô®Êúâ padding Êó∂ÔºåÂ¶ÇÊûúÁî® height() Âè™ËÉΩËÆæÁΩÆÂÜÖÂÆπÁöÑÂÆΩÂ∫¶
+=======
+	    .css({height: scrollHeight}); // µ±’€µ˛µƒ»›∆˜”– padding  ±£¨»Áπ˚”√ height() ÷ªƒ‹…Ë÷√ƒ⁄»›µƒøÌ∂»
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	};
 
 	Collapse.prototype.close = function() {
@@ -4257,9 +4269,15 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	module.exports = UI.collapse = Collapse;
 
+<<<<<<< HEAD
 	// TODO: Êõ¥Â•ΩÁöÑ target ÈÄâÊã©ÊñπÂºè
 	//       ÊäòÂè†ÁöÑÂÆπÂô®ÂøÖÈ°ªÊ≤°Êúâ border/padding ÊâçËÉΩÊ≠£Â∏∏Â§ÑÁêÜÔºåÂê¶ÂàôÂä®Áîª‰ºöÊúâ‰∏Ä‰∫õÂ∞èÈóÆÈ¢ò
 	//       ÂØªÊâæÊõ¥Â•ΩÁöÑÊú™Áü•È´òÂ∫¶ transition Âä®ÁîªËß£ÂÜ≥ÊñπÊ°àÔºåmax-height ‰πãÁ±ªÁöÑÂ∞±ÁÆó‰∫Ü
+=======
+	// TODO: ∏¸∫√µƒ target —°‘Ò∑Ω Ω
+	//       ’€µ˛µƒ»›∆˜±ÿ–Î√ª”– border/padding ≤≈ƒ‹’˝≥£¥¶¿Ì£¨∑Ò‘Ú∂Øª≠ª·”–“ª–©–°Œ Ã‚
+	//       —∞’“∏¸∫√µƒŒ¥÷™∏ﬂ∂» transition ∂Øª≠Ω‚æˆ∑Ω∞∏£¨max-height ÷Æ¿‡µƒæÕÀ„¡À
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 
 
 /***/ },
@@ -4787,6 +4805,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    weekStart: 0
 	  },
 	  zh_CN: {
+<<<<<<< HEAD
 	    days: ['ÊòüÊúüÊó•', 'ÊòüÊúü‰∏Ä', 'ÊòüÊúü‰∫å', 'ÊòüÊúü‰∏â', 'ÊòüÊúüÂõõ', 'ÊòüÊúü‰∫î', 'ÊòüÊúüÂÖ≠'],
 	    daysShort: ['Âë®Êó•', 'Âë®‰∏Ä', 'Âë®‰∫å', 'Âë®‰∏â', 'Âë®Âõõ', 'Âë®‰∫î', 'Âë®ÂÖ≠'],
 	    daysMin: ['Êó•', '‰∏Ä', '‰∫å', '‰∏â', 'Âõõ', '‰∫î', 'ÂÖ≠'],
@@ -4796,6 +4815,17 @@ return /******/ (function(modules) { // webpackBootstrap
 	      '‰∏ÉÊúà', 'ÂÖ´Êúà', '‰πùÊúà', 'ÂçÅÊúà', 'ÂçÅ‰∏ÄÊúà', 'ÂçÅ‰∫åÊúà'],
 	    weekStart: 1,
 	    year: ['Âπ¥']
+=======
+	    days: ['–«∆⁄»’', '–«∆⁄“ª', '–«∆⁄∂˛', '–«∆⁄»˝', '–«∆⁄Àƒ', '–«∆⁄ŒÂ', '–«∆⁄¡˘'],
+	    daysShort: ['÷‹»’', '÷‹“ª', '÷‹∂˛', '÷‹»˝', '÷‹Àƒ', '÷‹ŒÂ', '÷‹¡˘'],
+	    daysMin: ['»’', '“ª', '∂˛', '»˝', 'Àƒ', 'ŒÂ', '¡˘'],
+	    months: ['“ª‘¬', '∂˛‘¬', '»˝‘¬', 'Àƒ‘¬', 'ŒÂ‘¬', '¡˘‘¬', '∆ﬂ‘¬',
+	      '∞À‘¬', 'æ≈‘¬', ' Æ‘¬', ' Æ“ª‘¬', ' Æ∂˛‘¬'],
+	    monthsShort: ['“ª‘¬', '∂˛‘¬', '»˝‘¬', 'Àƒ‘¬', 'ŒÂ‘¬', '¡˘‘¬',
+	      '∆ﬂ‘¬', '∞À‘¬', 'æ≈‘¬', ' Æ‘¬', ' Æ“ª‘¬', ' Æ∂˛‘¬'],
+	    weekStart: 1,
+	    year: ['ƒÍ']
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	  }
 	};
 
@@ -4946,8 +4976,13 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	module.exports = UI.datepicker = Datepicker;
 
+<<<<<<< HEAD
 	// TODO: 1. ËΩΩÂÖ•Âä®Áîª
 	//       2. less ‰ºòÂåñ
+=======
+	// TODO: 1. ‘ÿ»Î∂Øª≠
+	//       2. less ”≈ªØ
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 
 
 /***/ },
@@ -4996,7 +5031,11 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	  var $element = this.$element;
 
+<<<<<<< HEAD
 	  // Áî®‰∫éÂ§öÈáçË∞ÉÁî®
+=======
+	  // ”√”⁄∂‡÷ÿµ˜”√
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	  if (relatedElement) {
 	    this.$used = this.$used.add($(relatedElement));
 	  }
@@ -5287,9 +5326,15 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	module.exports = UI.dropdown = Dropdown;
 
+<<<<<<< HEAD
 	// TODO: 1. Â§ÑÁêÜÈìæÊé• focus
 	//       2. Â¢ûÂä† mouseenter / mouseleave ÈÄâÈ°π
 	//       3. ÂÆΩÂ∫¶ÈÄÇÂ∫î
+=======
+	// TODO: 1. ¥¶¿Ì¡¥Ω” focus
+	//       2. ‘ˆº” mouseenter / mouseleave —°œÓ
+	//       3. øÌ∂»  ”¶
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 
 
 /***/ },
@@ -7814,7 +7859,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	  // callback hook
 	  relatedTarget && (this.relatedTarget = relatedTarget);
 
+<<<<<<< HEAD
 	  // Âà§Êñ≠Â¶ÇÊûúËøòÂú®Âä®ÁîªÔºåÂ∞±ÂÖàËß¶Âèë‰πãÂâçÁöÑclosed‰∫ã‰ª∂
+=======
+	  // ≈–∂œ»Áπ˚ªπ‘⁄∂Øª≠£¨æÕœ»¥•∑¢÷Æ«∞µƒclosed ¬º˛
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	  if (this.transitioning) {
 	    clearTimeout($element.transitionEndTimmer);
 	    $element.transitionEndTimmer = null;
@@ -7889,7 +7938,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	  var options = this.options;
 	  var isPopup = this.isPopup;
 
+<<<<<<< HEAD
 	  // Âà§Êñ≠Â¶ÇÊûúËøòÂú®Âä®ÁîªÔºåÂ∞±ÂÖàËß¶Âèë‰πãÂâçÁöÑopened‰∫ã‰ª∂
+=======
+	  // ≈–∂œ»Áπ˚ªπ‘⁄∂Øª≠£¨æÕœ»¥•∑¢÷Æ«∞µƒopened ¬º˛
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	  if (this.transitioning) {
 	    clearTimeout($element.transitionEndTimmer);
 	    $element.transitionEndTimmer = null;
@@ -7907,7 +7960,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	    isPopup && $element.removeClass(options.className.out);
 	    $element.hide();
 	    this.transitioning = 0;
+<<<<<<< HEAD
 	    // ‰∏çÂº∫Âà∂ÂÖ≥Èó≠ DimmerÔºå‰ª•‰æøÂ§ö‰∏™ Modal ÂèØ‰ª•ÂÖ±‰∫´ Dimmer
+=======
+	    // ≤ª«ø÷∆πÿ±’ Dimmer£¨“‘±„∂‡∏ˆ Modal ø…“‘π≤œÌ Dimmer
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	    this.dimmer.close($element, false);
 	    this.active = false;
 	  };
@@ -8223,7 +8280,11 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	module.exports = UI.offcanvas = OffCanvas;
 
+<<<<<<< HEAD
 	// TODO: ‰ºòÂåñÂä®ÁîªÊïàÊûú
+=======
+	// TODO: ”≈ªØ∂Øª≠–ßπ˚
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	// http://dbushell.github.io/Responsive-Off-Canvas-Menu/step4.html
 
 
@@ -9042,7 +9103,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	    _this.sizePopover();
 	  }
 
+<<<<<<< HEAD
 	  // TODO: ÁõëÂê¨È°µÈù¢ÂÜÖÂÆπÂèòÂåñÔºåÈáçÊñ∞Ë∞ÉÊï¥‰ΩçÁΩÆ
+=======
+	  // TODO: º‡Ã˝“≥√Êƒ⁄»›±‰ªØ£¨÷ÿ–¬µ˜’˚Œª÷√
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 
 	  $element.on('open.popover.amui', function() {
 	    $(window).on('resize.popover.amui', UI.utils.debounce(sizePopover, 50));
@@ -9067,7 +9132,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	  var popHeight = $popover.outerHeight();
 	  var $popCaret = $popover.find('.am-popover-caret');
 	  var popCaretSize = ($popCaret.outerWidth() / 2) || 8;
+<<<<<<< HEAD
 	  // Âèñ‰∏çÂà∞ $popCaret.outerHeight() ÁöÑÂÄºÔºåÊâÄ‰ª•Áõ¥Êé•Âä† 8
+=======
+	  // »°≤ªµΩ $popCaret.outerHeight() µƒ÷µ£¨À˘“‘÷±Ω”º” 8
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	  var popTotalHeight = popHeight + 8; // $popCaret.outerHeight();
 
 	  var triggerWidth = $element.outerWidth();
@@ -9226,7 +9295,11 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	module.exports = Popover;
 
+<<<<<<< HEAD
 	// TODO: ÂÖÅËÆ∏Áî®Êà∑ÂÆö‰πâ‰ΩçÁΩÆ
+=======
+	// TODO: ‘ –Ì”√ªß∂®“ÂŒª÷√
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 
 
 /***/ },
@@ -9788,11 +9861,19 @@ return /******/ (function(modules) { // webpackBootstrap
 	  // press to toggle Toolbar
 	  toggleToolbar: true,
 
+<<<<<<< HEAD
 	  // ‰ªé‰ΩïÂ§ÑËé∑ÂèñÂõæÁâáÔºåimg ÂèØ‰ª•‰ΩøÁî® data-rel ÊåáÂÆöÂ§ßÂõæ
 	  target: 'img',
 
 	  // ÂæÆ‰ø° Webview ‰∏≠Ë∞ÉÁî®ÂæÆ‰ø°ÁöÑÂõæÁâáÊµèËßàÂô®
 	  // ÂÆûÁé∞ÂõæÁâá‰øùÂ≠ò„ÄÅÂàÜ‰∫´Â•ΩÂèã„ÄÅÊî∂ËóèÂõæÁâáÁ≠âÂäüËÉΩ
+=======
+	  // ¥”∫Œ¥¶ªÒ»°Õº∆¨£¨img ø…“‘ π”√ data-rel ÷∏∂®¥ÛÕº
+	  target: 'img',
+
+	  // Œ¢–≈ Webview ÷–µ˜”√Œ¢–≈µƒÕº∆¨‰Ø¿¿∆˜
+	  //  µœ÷Õº∆¨±£¥Ê°¢∑÷œÌ∫√”—°¢ ’≤ÿÕº∆¨µ»π¶ƒ‹
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	  weChatImagePreview: true
 	};
 
@@ -10122,10 +10203,17 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	module.exports = PureView;
 
+<<<<<<< HEAD
 	// TODO: 1. Âä®ÁîªÊîπËøõ
 	//       2. ÊîπÂèòÂõæÁâáÁöÑÊó∂ÂÄôÊÅ¢Â§ç Zoom
 	//       3. ÈÄâÈ°π
 	//       4. ÂõæÁâáÈ´òÂ∫¶ÈóÆÈ¢òÔºöÁî±‰∫é PinchZoom ÁöÑÂéüÂõ†ÔºåËøáÈ´òÁöÑÂõæÁâáÂ¶ÇÊûúËÆæÁΩÆÁúã‰∫ÜÊªöÂä®ÔºåÂàôÊîæÂ§ß‰ª•ÂêéÊòæÁ§∫‰∏çÂÖ®
+=======
+	// TODO: 1. ∂Øª≠∏ƒΩ¯
+	//       2. ∏ƒ±‰Õº∆¨µƒ ±∫Úª÷∏¥ Zoom
+	//       3. —°œÓ
+	//       4. Õº∆¨∏ﬂ∂»Œ Ã‚£∫”…”⁄ PinchZoom µƒ‘≠“Ú£¨π˝∏ﬂµƒÕº∆¨»Áπ˚…Ë÷√ø¥¡Àπˆ∂Ø£¨‘Ú∑≈¥Û“‘∫Ûœ‘ æ≤ª»´
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 
 
 /***/ },
@@ -10353,8 +10441,13 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	module.exports = ScrollSpyNav;
 
+<<<<<<< HEAD
 	// TODO: 1. ÁÆóÊ≥ïÊîπËøõ
 	//       2. Â§öÁ∫ßËèúÂçïÊîØÊåÅ
+=======
+	// TODO: 1. À„∑®∏ƒΩ¯
+	//       2. ∂‡º∂≤Àµ•÷ß≥÷
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	//       3. smooth scroll pushState
 
 
@@ -10541,7 +10634,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	  dropUp: 0,
 	  maxHeight: null,
 	  maxChecked: null,
+<<<<<<< HEAD
 	  placeholder: 'ÁÇπÂáªÈÄâÊã©...',
+=======
+	  placeholder: 'µ„ª˜—°‘Ò...',
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	  selectedClass: 'am-checked',
 	  disabledClass: 'am-disabled',
 	  searchBox: false,
@@ -10554,7 +10651,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	  '  </button>' +
 	  '  <div class="am-selected-content am-dropdown-content">' +
 	  '    <h2 class="am-selected-header">' +
+<<<<<<< HEAD
 	  '<span class="am-icon-chevron-left">ËøîÂõû</span></h2>' +
+=======
+	  '<span class="am-icon-chevron-left">∑µªÿ</span></h2>' +
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	  '   <% if (searchBox) { %>' +
 	  '   <div class="am-selected-search">' +
 	  '     <input autocomplete="off" class="am-form-field am-input-sm" />' +
@@ -10650,6 +10751,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  this.maxChecked = max || Infinity;
 
 	  if ($element[0].required) {
+<<<<<<< HEAD
 	    hint.push('ÂøÖÈÄâ');
 	  }
 
@@ -10659,6 +10761,17 @@ return /******/ (function(modules) { // webpackBootstrap
 	  }
 
 	  this.$hint.text(hint.join('Ôºå'));
+=======
+	    hint.push('±ÿ—°');
+	  }
+
+	  if (min || max) {
+	    min && hint.push('÷¡…Ÿ—°‘Ò ' + min + ' œÓ');
+	    max && hint.push('÷¡∂‡—°‘Ò ' + max + ' œÓ');
+	  }
+
+	  this.$hint.text(hint.join('£¨'));
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 
 	  // render dropdown list
 	  this.renderOptions();
@@ -10684,8 +10797,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	  var $optgroup = $element.find('optgroup');
 	  this.$originalOptions = this.$element.find('option');
 
+<<<<<<< HEAD
 	  // ÂçïÈÄâÊ°Ü‰ΩøÁî® JS Á¶ÅÁî®Â∑≤ÁªèÈÄâÊã©ÁöÑ option ‰ª•ÂêéÔºå
 	  // ÊµèËßàÂô®‰ºöÈáçÊñ∞ÈÄâÂÆöÁ¨¨‰∏Ä‰∏™ optionÔºå‰ΩÜÊúâ‰∏ÄÂÆöÂª∂ËøüÔºåËá¥‰Ωø JS Ëé∑Âèñ value Êó∂ËøîÂõû null
+=======
+	  // µ•—°øÚ π”√ JS Ω˚”√“—æ≠—°‘Òµƒ option “‘∫Û£¨
+	  // ‰Ø¿¿∆˜ª·÷ÿ–¬—°∂®µ⁄“ª∏ˆ option£¨µ´”–“ª∂®—”≥Ÿ£¨÷¬ π JS ªÒ»° value  ±∑µªÿ null
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	  if (!this.multiple && ($element.val() === null)) {
 	    this.$originalOptions.length &&
 	    (this.$originalOptions.get(0).selected = true);
@@ -10937,11 +11055,19 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	Share.DEFAULTS = {
 	  sns: ['weibo', 'qq', 'qzone', 'tqq', 'wechat', 'renren'],
+<<<<<<< HEAD
 	  title: 'ÂàÜ‰∫´Âà∞',
 	  cancel: 'ÂèñÊ∂à',
 	  closeOnShare: true,
 	  id: UI.utils.generateGUID('am-share'),
 	  desc: 'HiÔºåÂ≠§Â§úËßÇÂ§©Ë±°ÔºåÂèëÁé∞‰∏Ä‰∏™‰∏çÈîôÁöÑË•øË•øÔºåÂàÜ‰∫´‰∏Ä‰∏ã‰∏ã ;-)',
+=======
+	  title: '∑÷œÌµΩ',
+	  cancel: '»°œ˚',
+	  closeOnShare: true,
+	  id: UI.utils.generateGUID('am-share'),
+	  desc: 'Hi£¨π¬“ππ€ÃÏœÛ£¨∑¢œ÷“ª∏ˆ≤ª¥ÌµƒŒ˜Œ˜£¨∑÷œÌ“ªœ¬œ¬ ;-)',
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	  via: 'Amaze UI',
 	  tpl: '<div class="am-share am-modal-actions" id="<%= id %>">' +
 	  '<h3 class="am-share-title"><%= title %></h3>' +
@@ -10962,12 +11088,17 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	Share.SNS = {
 	  weibo: {
+<<<<<<< HEAD
 	    title: 'Êñ∞Êµ™ÂæÆÂçö',
+=======
+	    title: '–¬¿ÀŒ¢≤©',
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	    url: 'http://service.weibo.com/share/share.php',
 	    width: 620,
 	    height: 450,
 	    icon: 'weibo'
 	  },
+<<<<<<< HEAD
 	  // url          ÈìæÊé•Âú∞ÂùÄ
 	  // title:‚Äù,     ÂàÜ‰∫´ÁöÑÊñáÂ≠óÂÜÖÂÆπ(ÂèØÈÄâÔºåÈªòËÆ§‰∏∫ÊâÄÂú®È°µÈù¢ÁöÑtitle)
 	  // appkey:‚Äù,    ÊÇ®Áî≥ËØ∑ÁöÑÂ∫îÁî®appkey,ÊòæÁ§∫ÂàÜ‰∫´Êù•Ê∫ê(ÂèØÈÄâ)
@@ -10977,10 +11108,22 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	  qq: {
 	    title: 'QQ Â•ΩÂèã',
+=======
+	  // url          ¡¥Ω”µÿ÷∑
+	  // title:°±,     ∑÷œÌµƒŒƒ◊÷ƒ⁄»›(ø…—°£¨ƒ¨»œŒ™À˘‘⁄“≥√Êµƒtitle)
+	  // appkey:°±,    ƒ˙…Í«Îµƒ”¶”√appkey,œ‘ æ∑÷œÌ¿¥‘¥(ø…—°)
+	  // pic:°±,       ∑÷œÌÕº∆¨µƒ¬∑æ∂(ø…—°)
+	  // ralateUid:°±, πÿ¡™”√ªßµƒUID£¨∑÷œÌŒ¢≤©ª·@∏√”√ªß(ø…—°)
+	  // NOTE: ª·◊‘∂Ø◊•»°Õº∆¨£¨≤ª”√÷∏∂® pic
+
+	  qq: {
+	    title: 'QQ ∫√”—',
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	    url: 'http://connect.qq.com/widget/shareqq/index.html',
 	    icon: 'qq'
 	  },
 	  // url:,
+<<<<<<< HEAD
 	  // title:'',    ÂàÜ‰∫´Ê†áÈ¢ò(ÂèØÈÄâ)
 	  // pics:'',     ÂàÜ‰∫´ÂõæÁâáÁöÑË∑ØÂæÑ(ÂèØÈÄâ)
 	  // summary:'',  ÂàÜ‰∫´ÊëòË¶Å(ÂèØÈÄâ)
@@ -10990,11 +11133,23 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	  qzone: {
 	    title: 'QQ Á©∫Èó¥',
+=======
+	  // title:'',    ∑÷œÌ±ÍÃ‚(ø…—°)
+	  // pics:'',     ∑÷œÌÕº∆¨µƒ¬∑æ∂(ø…—°)
+	  // summary:'',  ∑÷œÌ’™“™(ø…—°)
+	  // site:'',     ∑÷œÌ¿¥‘¥ »Á£∫Ã⁄—∂Õ¯(ø…—°)
+	  // desc: ''     ∑¢ÀÕ∏¯”√ªßµƒœ˚œ¢
+	  // NOTE: æ≠π˝≤‚ ‘£¨◊Ó÷’∑¢∏¯”√ªßµƒ÷ª”– url ∫Õ desc
+
+	  qzone: {
+	    title: 'QQ ø’º‰',
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	    url: 'http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey',
 	    icon: 'star'
 	  },
 	  // http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=xxx&title=xxx&desc=&summary=&site=
 	  // url:,
+<<<<<<< HEAD
 	  // title:'',    ÂàÜ‰∫´Ê†áÈ¢ò(ÂèØÈÄâ)
 	  // desc:'',     ÈªòËÆ§ÂàÜ‰∫´ÁêÜÁî±(ÂèØÈÄâ)
 	  // summary:'',  ÂàÜ‰∫´ÊëòË¶Å(ÂèØÈÄâ)
@@ -11003,12 +11158,23 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	  tqq: {
 	    title: 'ËÖæËÆØÂæÆÂçö',
+=======
+	  // title:'',    ∑÷œÌ±ÍÃ‚(ø…—°)
+	  // desc:'',     ƒ¨»œ∑÷œÌ¿Ì”…(ø…—°)
+	  // summary:'',  ∑÷œÌ’™“™(ø…—°)
+	  // site:'',     ∑÷œÌ¿¥‘¥ »Á£∫Ã⁄—∂Õ¯(ø…—°)
+	  // pics:'',     ∑÷œÌÕº∆¨µƒ¬∑æ∂(ø…—°)£¨≤ªª·◊‘∂Ø◊•»°£¨∂‡∏ˆÕº∆¨”√|∑÷∏Ù
+
+	  tqq: {
+	    title: 'Ã⁄—∂Œ¢≤©',
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	    url: 'http://v.t.qq.com/share/share.php',
 	    icon: 'tencent-weibo'
 	  },
 	  // url=xx&title=&appkey=801cf76d3cfc44ada52ec13114e84a96
 	  // url
 	  // title
+<<<<<<< HEAD
 	  // pic Â§ö‰∏™ÂõæÁâáÁî® | ÂàÜÈöî
 	  // appkey
 	  // NOTE: ‰∏ç‰ºöËá™Âä®ÊäìÂèñÂõæÁâá
@@ -11023,11 +11189,28 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	  renren: {
 	    title: '‰∫∫‰∫∫ÁΩë',
+=======
+	  // pic ∂‡∏ˆÕº∆¨”√ | ∑÷∏Ù
+	  // appkey
+	  // NOTE: ≤ªª·◊‘∂Ø◊•»°Õº∆¨
+
+	  wechat: {
+	    title: 'Œ¢–≈',
+	    url: '[qrcode]',
+	    icon: 'wechat'
+	  },
+	  // …˙≥…“ª∏ˆ∂˛Œ¨¬Î π©”√ªß…®√Ë
+	  // œ‡πÿΩ”ø⁄ https://github.com/zxlie/WeixinApi
+
+	  renren: {
+	    title: '»À»ÀÕ¯',
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	    url: 'http://widget.renren.com/dialog/share',
 	    icon: 'renren'
 	  },
 	  // http://widget.renren.com/dialog/share?resourceUrl=www&srcUrl=www&title=ww&description=xxx
 	  // 550 * 400
+<<<<<<< HEAD
 	  // resourceUrl : '', // ÂàÜ‰∫´ÁöÑËµÑÊ∫êUrl
 	  // srcUrl : '',	     // ÂàÜ‰∫´ÁöÑËµÑÊ∫êÊù•Ê∫êUrl,
 	  //                   //   ÈªòËÆ§‰∏∫header‰∏≠ÁöÑReferer,Â¶ÇÊûúÂàÜ‰∫´Â§±Ë¥•ÂèØ‰ª•Ë∞ÉÊï¥Ê≠§ÂÄº‰∏∫resourceUrlËØïËØï
@@ -11038,14 +11221,31 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	  douban: {
 	    title: 'Ë±ÜÁì£',
+=======
+	  // resourceUrl : '', // ∑÷œÌµƒ◊ ‘¥Url
+	  // srcUrl : '',	     // ∑÷œÌµƒ◊ ‘¥¿¥‘¥Url,
+	  //                   //   ƒ¨»œŒ™header÷–µƒReferer,»Áπ˚∑÷œÌ ß∞‹ø…“‘µ˜’˚¥À÷µŒ™resourceUrl ‘ ‘
+	  // pic : '',		 // ∑÷œÌµƒ÷˜Ã‚Õº∆¨£¨ª·◊‘∂Ø◊•»°
+	  // title : '',		 // ∑÷œÌµƒ±ÍÃ‚
+	  // description : ''	 // ∑÷œÌµƒœÍœ∏√Ë ˆ
+	  // NOTE: æ≠π˝≤‚ ‘£¨÷±Ω” π”√ url ≤Œ ˝º¥ø…
+
+	  douban: {
+	    title: '∂π∞Í',
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	    url: 'http://www.douban.com/recommend/',
 	    icon: 'share-alt'
 	  },
 	  // http://www.douban.com/service/sharebutton
 	  // 450 * 330
 	  // http://www.douban.com/share/service?bm=1&image=&href=xxx&updated=&name=
+<<<<<<< HEAD
 	  // href ÈìæÊé•
 	  // name Ê†áÈ¢ò
+=======
+	  // href ¡¥Ω”
+	  // name ±ÍÃ‚
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 
 	  /* void (function() {
 	   var d = document, e = encodeURIComponent,
@@ -11062,13 +11262,21 @@ return /******/ (function(modules) { // webpackBootstrap
 	  // print: '',
 
 	  mail: {
+<<<<<<< HEAD
 	    title: 'ÈÇÆ‰ª∂ÂàÜ‰∫´',
+=======
+	    title: '” º˛∑÷œÌ',
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	    url: 'mailto:',
 	    icon: 'envelope-o'
 	  },
 
 	  sms: {
+<<<<<<< HEAD
 	    title: 'Áü≠‰ø°ÂàÜ‰∫´',
+=======
+	    title: '∂Ã–≈∑÷œÌ',
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	    url: 'sms:',
 	    icon: 'comment'
 	  }
@@ -11177,7 +11385,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	      !!allImages[i].src && imgSrc.push(encodeURIComponent(allImages[i].src));
 	    }
 
+<<<<<<< HEAD
 	    this.pics = imgSrc; // ÁºìÂ≠òÂõæÁâá
+=======
+	    this.pics = imgSrc; // ª∫¥ÊÕº∆¨
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	  }
 
 	  switch (sns) {
@@ -11185,16 +11397,27 @@ return /******/ (function(modules) { // webpackBootstrap
 	      shareData.desc = desc;
 	      shareData.site = this.options.via;
 	      shareData.pics = imgSrc.join('|');
+<<<<<<< HEAD
 	      // TODO: ÊäìÂèñÂõæÁâáÂ§öÂº†
+=======
+	      // TODO: ◊•»°Õº∆¨∂‡’≈
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	      break;
 	    case 'qq':
 	      shareData.desc = desc;
 	      shareData.site = this.options.via;
 	      shareData.pics = imgSrc[0];
+<<<<<<< HEAD
 	      // ÊäìÂèñ‰∏ÄÂº†ÂõæÁâá
 	      break;
 	    case 'tqq':
 	      // ÊäìÂèñÂõæÁâáÂ§öÂº†
+=======
+	      // ◊•»°“ª’≈Õº∆¨
+	      break;
+	    case 'tqq':
+	      // ◊•»°Õº∆¨∂‡’≈
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	      shareData.pic = imgSrc.join('|');
 	      break;
 	  }
@@ -11216,7 +11439,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	  var query = [];
 	  for (var key in data) {
 	    if (data[key]) {
+<<<<<<< HEAD
 	      // ÈÅøÂÖç encode ÂõæÁâáÂàÜÈöîÁ¨¶ |
+=======
+	      // ±‹√‚ encode Õº∆¨∑÷∏Ù∑˚ |
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	      query.push(key.toString() + '=' + ((key === 'pic' || key === 'pics') ?
 	        data[key] : encodeURIComponent(data[key])));
 	    }
@@ -11229,14 +11456,23 @@ return /******/ (function(modules) { // webpackBootstrap
 	  if (!this.$wechatQr) {
 	    var qrId = UI.utils.generateGUID('am-share-wechat');
 	    var $qr = $('<div class="am-modal am-modal-no-btn am-share-wechat-qr">' +
+<<<<<<< HEAD
 	    '<div class="am-modal-dialog"><div class="am-modal-hd">ÂàÜ‰∫´Âà∞ÂæÆ‰ø° ' +
+=======
+	    '<div class="am-modal-dialog"><div class="am-modal-hd">∑÷œÌµΩŒ¢–≈ ' +
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	    '<a href="" class="am-close am-close-spin" ' +
 	    'data-am-modal-close>&times;</a> </div>' +
 	    '<div class="am-modal-bd">' +
 	    '<div class="am-share-wx-qr"></div>' +
 	    '<div class="am-share-wechat-tip">' +
+<<<<<<< HEAD
 	    'ÊâìÂºÄÂæÆ‰ø°ÔºåÁÇπÂáªÂ∫ïÈÉ®ÁöÑ<em>ÂèëÁé∞</em>Ôºå<br/> ' +
 	    '‰ΩøÁî®<em>Êâ´‰∏ÄÊâ´</em>Â∞ÜÁΩëÈ°µÂàÜ‰∫´Ëá≥ÊúãÂèãÂúà</div></div></div></div>');
+=======
+	    '¥Úø™Œ¢–≈£¨µ„ª˜µ◊≤øµƒ<em>∑¢œ÷</em>£¨<br/> ' +
+	    ' π”√<em>…®“ª…®</em>Ω´Õ¯“≥∑÷œÌ÷¡≈Û”—»¶</div></div></div></div>');
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 
 	    $qr.attr('id', qrId);
 
@@ -11286,18 +11522,31 @@ return /******/ (function(modules) { // webpackBootstrap
 	var qrcodeAlgObjCache = [];
 
 	/**
+<<<<<<< HEAD
 	 * ‰∫åÁª¥Á†ÅÊûÑÈÄ†ÂáΩÊï∞Ôºå‰∏ªË¶ÅÁî®‰∫éÁªòÂà∂
 	 * @param  {Object} opt ‰º†ÈÄíÂèÇÊï∞
+=======
+	 * ∂˛Œ¨¬Îππ‘Ï∫Ø ˝£¨÷˜“™”√”⁄ªÊ÷∆
+	 * @param  {Object} opt ¥´µ›≤Œ ˝
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	 * @return {String} qrcode
 	 * @constructor
 	 */
 	var QRCode = function(opt) {
+<<<<<<< HEAD
 	  if (typeof opt === 'string') { // Âè™ÁºñÁ†ÅASCIIÂ≠óÁ¨¶‰∏≤
+=======
+	  if (typeof opt === 'string') { // ÷ª±‡¬ÎASCII◊÷∑˚¥Æ
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	    opt = {
 	      text: opt
 	    };
 	  }
+<<<<<<< HEAD
 	  // ËÆæÁΩÆÈªòËÆ§ÂèÇÊï∞
+=======
+	  // …Ë÷√ƒ¨»œ≤Œ ˝
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	  this.options = $.extend({}, {
 	    text: "",
 	    render: "",
@@ -11308,7 +11557,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	    foreground: "#000000"
 	  }, opt);
 
+<<<<<<< HEAD
 	  // ‰ΩøÁî®QRCodeAlgÂàõÂª∫‰∫åÁª¥Á†ÅÁªìÊûÑ
+=======
+	  //  π”√QRCodeAlg¥¥Ω®∂˛Œ¨¬ÎΩ·ππ
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	  var qrCodeAlg = null;
 	  for (var i = 0, l = qrcodeAlgObjCache.length; i < l; i++) {
 	    if (qrcodeAlgObjCache[i].text == this.options.text && qrcodeAlgObjCache[i].text.correctLevel == this.options.correctLevel) {
@@ -11340,7 +11593,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	  return this.createDefault(qrCodeAlg);
 	};
 	/**
+<<<<<<< HEAD
 	 * ‰ΩøÁî®CanvasÊù•Áîª‰∫åÁª¥Á†Å
+=======
+	 *  π”√Canvas¿¥ª≠∂˛Œ¨¬Î
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	 * @return {}
 	 */
 
@@ -11353,17 +11610,29 @@ return /******/ (function(modules) { // webpackBootstrap
 	  return this.createTable(qrCodeAlg);
 	};
 	QRCode.prototype.createCanvas = function(qrCodeAlg) {
+<<<<<<< HEAD
 	  //ÂàõÂª∫canvasËäÇÁÇπ
+=======
+	  //¥¥Ω®canvasΩ⁄µ„
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	  var canvas = document.createElement('canvas');
 	  canvas.width = this.options.width;
 	  canvas.height = this.options.height;
 	  var ctx = canvas.getContext('2d');
 
+<<<<<<< HEAD
 	  //ËÆ°ÁÆóÊØè‰∏™ÁÇπÁöÑÈïøÂÆΩ
 	  var tileW = (this.options.width / qrCodeAlg.getModuleCount()).toPrecision(4);
 	  var tileH = this.options.height / qrCodeAlg.getModuleCount().toPrecision(4);
 
 	  //ÁªòÂà∂
+=======
+	  //º∆À„√ø∏ˆµ„µƒ≥§øÌ
+	  var tileW = (this.options.width / qrCodeAlg.getModuleCount()).toPrecision(4);
+	  var tileH = this.options.height / qrCodeAlg.getModuleCount().toPrecision(4);
+
+	  //ªÊ÷∆
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	  for (var row = 0; row < qrCodeAlg.getModuleCount(); row++) {
 	    for (var col = 0; col < qrCodeAlg.getModuleCount(); col++) {
 	      ctx.fillStyle = qrCodeAlg.modules[row][col] ? this.options.foreground : this.options.background;
@@ -11372,6 +11641,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	      ctx.fillRect(Math.round(col * tileW), Math.round(row * tileH), w, h);
 	    }
 	  }
+<<<<<<< HEAD
 	  //ËøîÂõûÁªòÂà∂ÁöÑËäÇÁÇπ
 	  return canvas;
 	};
@@ -11381,11 +11651,26 @@ return /******/ (function(modules) { // webpackBootstrap
 	 */
 	QRCode.prototype.createTable = function(qrCodeAlg) {
 	  //ÂàõÂª∫tableËäÇÁÇπ
+=======
+	  //∑µªÿªÊ÷∆µƒΩ⁄µ„
+	  return canvas;
+	};
+	/**
+	 *  π”√table¿¥ªÊ÷∆∂˛Œ¨¬Î
+	 * @return {}
+	 */
+	QRCode.prototype.createTable = function(qrCodeAlg) {
+	  //¥¥Ω®tableΩ⁄µ„
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	  var s = [];
 	  s.push('<table style="border:0px; margin:0px; padding:0px; border-collapse:collapse; background-color: ' +
 	  this.options.background +
 	  ';">');
+<<<<<<< HEAD
 	  // ËÆ°ÁÆóÊØè‰∏™ËäÇÁÇπÁöÑÈïøÂÆΩÔºõÂèñÊï¥ÔºåÈò≤Ê≠¢ÁÇπ‰πãÈó¥Âá∫Áé∞ÂàÜÁ¶ª
+=======
+	  // º∆À„√ø∏ˆΩ⁄µ„µƒ≥§øÌ£ª»°’˚£¨∑¿÷πµ„÷Æº‰≥ˆœ÷∑÷¿Î
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	  var tileW = -1, tileH = -1, caculateW = -1, caculateH = -1;
 	  tileW = caculateW = Math.floor(this.options.width / qrCodeAlg.getModuleCount());
 	  tileH = caculateH = Math.floor(this.options.height / qrCodeAlg.getModuleCount());
@@ -11404,7 +11689,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	    }
 	  }
 
+<<<<<<< HEAD
 	  // ÁªòÂà∂‰∫åÁª¥Á†Å
+=======
+	  // ªÊ÷∆∂˛Œ¨¬Î
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	  foreTd = '<td style="border:0px; margin:0px; padding:0px; width:' + tileW + 'px; background-color: ' + this.options.foreground + '"></td>',
 	    backTd = '<td style="border:0px; margin:0px; padding:0px; width:' + tileW + 'px; background-color: ' + this.options.background + '"></td>',
 	    l = qrCodeAlg.getModuleCount();
@@ -11424,7 +11713,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 	/**
+<<<<<<< HEAD
 	 * ‰ΩøÁî®SVGÂºÄÁªòÂà∂‰∫åÁª¥Á†Å
+=======
+	 *  π”√SVGø™ªÊ÷∆∂˛Œ¨¬Î
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	 * @return {}
 	 */
 	QRCode.prototype.createSVG = function(qrCodeAlg) {
@@ -11465,8 +11758,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 	/**
+<<<<<<< HEAD
 	 * Ëé∑ÂèñÂçï‰∏™Â≠óÁ¨¶ÁöÑutf8ÁºñÁ†Å
 	 * unicode BMPÂπ≥Èù¢Á∫¶65535‰∏™Â≠óÁ¨¶
+=======
+	 * ªÒ»°µ•∏ˆ◊÷∑˚µƒutf8±‡¬Î
+	 * unicode BMP∆Ω√Ê‘º65535∏ˆ◊÷∑˚
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	 * @param {num} code
 	 * return {array}
 	 */
@@ -11489,7 +11787,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 
 	/**
+<<<<<<< HEAD
 	 * Ëé∑ÂèñÂ≠óÁ¨¶‰∏≤ÁöÑutf8ÁºñÁ†ÅÂ≠óËäÇ‰∏≤
+=======
+	 * ªÒ»°◊÷∑˚¥Æµƒutf8±‡¬Î◊÷Ω⁄¥Æ
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	 * @param {string} string
 	 * @return {array}
 	 */
@@ -11506,6 +11808,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 
 	/**
+<<<<<<< HEAD
 	 * ‰∫åÁª¥Á†ÅÁÆóÊ≥ïÂÆûÁé∞
 	 * @param {string} data              Ë¶ÅÁºñÁ†ÅÁöÑ‰ø°ÊÅØÂ≠óÁ¨¶‰∏≤
 	 * @param {num} errorCorrectLevel Á∫†ÈîôÁ≠âÁ∫ß
@@ -11518,6 +11821,20 @@ return /******/ (function(modules) { // webpackBootstrap
 	  this.dataCache = null; // Êï∞ÊçÆÁºìÂ≠ò
 	  this.rsBlocks = null; // ÁâàÊú¨Êï∞ÊçÆ‰ø°ÊÅØ
 	  this.totalDataCount = -1; // ÂèØ‰ΩøÁî®ÁöÑÊï∞ÊçÆÈáè
+=======
+	 * ∂˛Œ¨¬ÎÀ„∑® µœ÷
+	 * @param {string} data              “™±‡¬Îµƒ–≈œ¢◊÷∑˚¥Æ
+	 * @param {num} errorCorrectLevel æ¿¥Ìµ»º∂
+	 */
+	function QRCodeAlg(data, errorCorrectLevel) {
+	  this.typeNumber = -1; // ∞Ê±æ
+	  this.errorCorrectLevel = errorCorrectLevel;
+	  this.modules = null;  // ∂˛Œ¨æÿ’Û£¨¥Ê∑≈◊Ó÷’Ω·π˚
+	  this.moduleCount = 0; // æÿ’Û¥Û–°
+	  this.dataCache = null; //  ˝æ›ª∫¥Ê
+	  this.rsBlocks = null; // ∞Ê±æ ˝æ›–≈œ¢
+	  this.totalDataCount = -1; // ø… π”√µƒ ˝æ›¡ø
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	  this.data = data;
 	  this.utf8bytes = getUTF8Bytes(data);
 	  this.make();
@@ -11526,14 +11843,23 @@ return /******/ (function(modules) { // webpackBootstrap
 	QRCodeAlg.prototype = {
 	  constructor: QRCodeAlg,
 	  /**
+<<<<<<< HEAD
 	   * Ëé∑Âèñ‰∫åÁª¥Á†ÅÁü©ÈòµÂ§ßÂ∞è
 	   * @return {num} Áü©ÈòµÂ§ßÂ∞è
+=======
+	   * ªÒ»°∂˛Œ¨¬Îæÿ’Û¥Û–°
+	   * @return {num} æÿ’Û¥Û–°
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	   */
 	  getModuleCount: function() {
 	    return this.moduleCount;
 	  },
 	  /**
+<<<<<<< HEAD
 	   * ÁºñÁ†Å
+=======
+	   * ±‡¬Î
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	   */
 	  make: function() {
 	    this.getRightType();
@@ -11541,9 +11867,15 @@ return /******/ (function(modules) { // webpackBootstrap
 	    this.createQrcode();
 	  },
 	  /**
+<<<<<<< HEAD
 	   * ËÆæÁΩÆ‰∫å‰ΩçÁü©ÈòµÂäüËÉΩÂõæÂΩ¢
 	   * @param  {bool} test Ë°®Á§∫ÊòØÂê¶Âú®ÂØªÊâæÊúÄÂ•ΩÊé©ËÜúÈò∂ÊÆµ
 	   * @param  {num} maskPattern Êé©ËÜúÁöÑÁâàÊú¨
+=======
+	   * …Ë÷√∂˛Œªæÿ’Ûπ¶ƒ‹Õº–Œ
+	   * @param  {bool} test ±Ì æ «∑Ò‘⁄—∞’“◊Ó∫√—⁄ƒ§Ω◊∂Œ
+	   * @param  {num} maskPattern —⁄ƒ§µƒ∞Ê±æ
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	   */
 	  makeImpl: function(maskPattern) {
 
@@ -11568,9 +11900,15 @@ return /******/ (function(modules) { // webpackBootstrap
 	    this.mapData(this.dataCache, maskPattern);
 	  },
 	  /**
+<<<<<<< HEAD
 	   * ËÆæÁΩÆ‰∫åÁª¥Á†ÅÁöÑ‰ΩçÁΩÆÊé¢ÊµãÂõæÂΩ¢
 	   * @param  {num} row Êé¢ÊµãÂõæÂΩ¢ÁöÑ‰∏≠ÂøÉÊ®™ÂùêÊ†á
 	   * @param  {num} col Êé¢ÊµãÂõæÂΩ¢ÁöÑ‰∏≠ÂøÉÁ∫µÂùêÊ†á
+=======
+	   * …Ë÷√∂˛Œ¨¬ÎµƒŒª÷√ÃΩ≤‚Õº–Œ
+	   * @param  {num} row ÃΩ≤‚Õº–Œµƒ÷––ƒ∫·◊¯±Í
+	   * @param  {num} col ÃΩ≤‚Õº–Œµƒ÷––ƒ◊›◊¯±Í
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	   */
 	  setupPositionProbePattern: function(row, col) {
 
@@ -11591,7 +11929,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	    }
 	  },
 	  /**
+<<<<<<< HEAD
 	   * ÂàõÂª∫‰∫åÁª¥Á†Å
+=======
+	   * ¥¥Ω®∂˛Œ¨¬Î
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	   * @return {[type]} [description]
 	   */
 	  createQrcode: function() {
@@ -11620,7 +11962,11 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	  },
 	  /**
+<<<<<<< HEAD
 	   * ËÆæÁΩÆÂÆö‰ΩçÂõæÂΩ¢
+=======
+	   * …Ë÷√∂®ŒªÕº–Œ
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	   * @return {[type]} [description]
 	   */
 	  setupTimingPattern: function() {
@@ -11638,7 +11984,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	    }
 	  },
 	  /**
+<<<<<<< HEAD
 	   * ËÆæÁΩÆÁü´Ê≠£ÂõæÂΩ¢
+=======
+	   * …Ë÷√Ω√’˝Õº–Œ
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	   * @return {[type]} [description]
 	   */
 	  setupPositionAdjustPattern: function() {
@@ -11671,8 +12021,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	    }
 	  },
 	  /**
+<<<<<<< HEAD
 	   * ËÆæÁΩÆÁâàÊú¨‰ø°ÊÅØÔºà7‰ª•‰∏äÁâàÊú¨ÊâçÊúâÔºâ
 	   * @param  {bool} test ÊòØÂê¶Â§Ñ‰∫éÂà§Êñ≠ÊúÄ‰Ω≥Êé©ËÜúÈò∂ÊÆµ
+=======
+	   * …Ë÷√∞Ê±æ–≈œ¢£®7“‘…œ∞Ê±æ≤≈”–£©
+	   * @param  {bool} test  «∑Ò¥¶”⁄≈–∂œ◊Óº——⁄ƒ§Ω◊∂Œ
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	   * @return {[type]}      [description]
 	   */
 	  setupTypeNumber: function(test) {
@@ -11686,9 +12041,15 @@ return /******/ (function(modules) { // webpackBootstrap
 	    }
 	  },
 	  /**
+<<<<<<< HEAD
 	   * ËÆæÁΩÆÊ†ºÂºè‰ø°ÊÅØÔºàÁ∫†ÈîôÁ≠âÁ∫ßÂíåÊé©ËÜúÁâàÊú¨Ôºâ
 	   * @param  {bool} test
 	   * @param  {num} maskPattern Êé©ËÜúÁâàÊú¨
+=======
+	   * …Ë÷√∏Ò Ω–≈œ¢£®æ¿¥Ìµ»º∂∫Õ—⁄ƒ§∞Ê±æ£©
+	   * @param  {bool} test
+	   * @param  {num} maskPattern —⁄ƒ§∞Ê±æ
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	   * @return {}
 	   */
 	  setupTypeInfo: function(test, maskPattern) {
@@ -11726,13 +12087,21 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	  },
 	  /**
+<<<<<<< HEAD
 	   * Êï∞ÊçÆÁºñÁ†Å
+=======
+	   *  ˝æ›±‡¬Î
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	   * @return {[type]} [description]
 	   */
 	  createData: function() {
 	    var buffer = new QRBitBuffer();
 	    var lengthBits = this.typeNumber > 9 ? 16 : 8;
+<<<<<<< HEAD
 	    buffer.put(4, 4); //Ê∑ªÂä†Ê®°Âºè
+=======
+	    buffer.put(4, 4); //ÃÌº”ƒ£ Ω
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	    buffer.put(this.utf8bytes.length, lengthBits);
 	    for (var i = 0, l = this.utf8bytes.length; i < l; i++) {
 	      buffer.put(this.utf8bytes[i], 8);
@@ -11762,8 +12131,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	    return this.createBytes(buffer);
 	  },
 	  /**
+<<<<<<< HEAD
 	   * Á∫†ÈîôÁ†ÅÁºñÁ†Å
 	   * @param  {buffer} buffer Êï∞ÊçÆÁºñÁ†Å
+=======
+	   * æ¿¥Ì¬Î±‡¬Î
+	   * @param  {buffer} buffer  ˝æ›±‡¬Î
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	   * @return {[type]}
 	   */
 	  createBytes: function(buffer) {
@@ -11840,7 +12214,11 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	  },
 	  /**
+<<<<<<< HEAD
 	   * Â∏ÉÁΩÆÊ®°ÂùóÔºåÊûÑÂª∫ÊúÄÁªà‰ø°ÊÅØ
+=======
+	   * ≤º÷√ƒ£øÈ£¨ππΩ®◊Ó÷’–≈œ¢
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	   * @param  {} data
 	   * @param  {} maskPattern
 	   * @return {}
@@ -11897,20 +12275,32 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	};
 	/**
+<<<<<<< HEAD
 	 * Â°´ÂÖÖÂ≠óÊÆµ
+=======
+	 * ÃÓ≥‰◊÷∂Œ
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	 */
 	QRCodeAlg.PAD0 = 0xEC;
 	QRCodeAlg.PAD1 = 0x11;
 
 
 	//---------------------------------------------------------------------
+<<<<<<< HEAD
 	// Á∫†ÈîôÁ≠âÁ∫ßÂØπÂ∫îÁöÑÁºñÁ†Å
+=======
+	// æ¿¥Ìµ»º∂∂‘”¶µƒ±‡¬Î
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	//---------------------------------------------------------------------
 
 	var QRErrorCorrectLevel = [1, 0, 3, 2];
 
 	//---------------------------------------------------------------------
+<<<<<<< HEAD
 	// Êé©ËÜúÁâàÊú¨
+=======
+	// —⁄ƒ§∞Ê±æ
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	//---------------------------------------------------------------------
 
 	var QRMaskPattern = {
@@ -11925,13 +12315,21 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 	//---------------------------------------------------------------------
+<<<<<<< HEAD
 	// Â∑•ÂÖ∑Á±ª
+=======
+	// π§æﬂ¿‡
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	//---------------------------------------------------------------------
 
 	var QRUtil = {
 
 	  /*
+<<<<<<< HEAD
 	   ÊØè‰∏™ÁâàÊú¨Áü´Ê≠£ÂõæÂΩ¢ÁöÑ‰ΩçÁΩÆ
+=======
+	   √ø∏ˆ∞Ê±æΩ√’˝Õº–ŒµƒŒª÷√
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	   */
 	  PATTERN_POSITION_TABLE: [
 	    [],
@@ -11981,7 +12379,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	  G15_MASK: (1 << 14) | (1 << 12) | (1 << 10) | (1 << 4) | (1 << 1),
 
 	  /*
+<<<<<<< HEAD
 	   BCHÁºñÁ†ÅÊ†ºÂºè‰ø°ÊÅØ
+=======
+	   BCH±‡¬Î∏Ò Ω–≈œ¢
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	   */
 	  getBCHTypeInfo: function(data) {
 	    var d = data << 10;
@@ -11991,7 +12393,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	    return ((data << 10) | d) ^ QRUtil.G15_MASK;
 	  },
 	  /*
+<<<<<<< HEAD
 	   BCHÁºñÁ†ÅÁâàÊú¨‰ø°ÊÅØ
+=======
+	   BCH±‡¬Î∞Ê±æ–≈œ¢
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	   */
 	  getBCHTypeNumber: function(data) {
 	    var d = data << 12;
@@ -12001,7 +12407,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	    return (data << 12) | d;
 	  },
 	  /*
+<<<<<<< HEAD
 	   Ëé∑ÂèñBCH‰Ωç‰ø°ÊÅØ
+=======
+	   ªÒ»°BCHŒª–≈œ¢
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	   */
 	  getBCHDigit: function(data) {
 
@@ -12015,13 +12425,21 @@ return /******/ (function(modules) { // webpackBootstrap
 	    return digit;
 	  },
 	  /*
+<<<<<<< HEAD
 	   Ëé∑ÂèñÁâàÊú¨ÂØπÂ∫îÁöÑÁü´Ê≠£ÂõæÂΩ¢‰ΩçÁΩÆ
+=======
+	   ªÒ»°∞Ê±æ∂‘”¶µƒΩ√’˝Õº–ŒŒª÷√
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	   */
 	  getPatternPosition: function(typeNumber) {
 	    return QRUtil.PATTERN_POSITION_TABLE[typeNumber - 1];
 	  },
 	  /*
+<<<<<<< HEAD
 	   Êé©ËÜúÁÆóÊ≥ï
+=======
+	   —⁄ƒ§À„∑®
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	   */
 	  getMask: function(maskPattern, i, j) {
 
@@ -12049,7 +12467,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	    }
 	  },
 	  /*
+<<<<<<< HEAD
 	   Ëé∑ÂèñRSÁöÑÁ∫†ÈîôÂ§öÈ°πÂºè
+=======
+	   ªÒ»°RSµƒæ¿¥Ì∂‡œÓ Ω
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	   */
 	  getErrorCorrectPolynomial: function(errorCorrectLength) {
 
@@ -12062,7 +12484,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	    return a;
 	  },
 	  /*
+<<<<<<< HEAD
 	   Ëé∑ÂèñËØÑ‰ª∑
+=======
+	   ªÒ»°∆¿º€
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	   */
 	  getLostPoint: function(qrCode) {
 
@@ -12079,7 +12505,11 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	        var current = qrCode.modules[row][col];
 
+<<<<<<< HEAD
 	        //level 3 ËØÑ‰ª∑
+=======
+	        //level 3 ∆¿º€
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	        if (col < moduleCount - 6) {
 	          if (current && !qrCode.modules[row][col + 1] && qrCode.modules[row][col + 2] && qrCode.modules[row][col + 3] && qrCode.modules[row][col + 4] && !qrCode.modules[row][col + 5] && qrCode.modules[row][col + 6]) {
 	            if (col < moduleCount - 10) {
@@ -12095,7 +12525,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	          }
 	        }
 
+<<<<<<< HEAD
 	        //level 2 ËØÑ‰ª∑
+=======
+	        //level 2 ∆¿º€
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	        if ((row < moduleCount - 1) && (col < moduleCount - 1)) {
 	          var count = 0;
 	          if (current) count++;
@@ -12107,7 +12541,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	          }
 	        }
 
+<<<<<<< HEAD
 	        //level 1 ËØÑ‰ª∑
+=======
+	        //level 1 ∆¿º€
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	        if (head ^ current) {
 	          sameCount++;
 	        } else {
@@ -12118,7 +12556,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	          sameCount = 1;
 	        }
 
+<<<<<<< HEAD
 	        //level 4 ËØÑ‰ª∑
+=======
+	        //level 4 ∆¿º€
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	        if (current) {
 	          darkCount++;
 	        }
@@ -12135,7 +12577,11 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	        var current = qrCode.modules[row][col];
 
+<<<<<<< HEAD
 	        //level 3 ËØÑ‰ª∑
+=======
+	        //level 3 ∆¿º€
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	        if (row < moduleCount - 6) {
 	          if (current && !qrCode.modules[row + 1][col] && qrCode.modules[row + 2][col] && qrCode.modules[row + 3][col] && qrCode.modules[row + 4][col] && !qrCode.modules[row + 5][col] && qrCode.modules[row + 6][col]) {
 	            if (row < moduleCount - 10) {
@@ -12150,7 +12596,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	          }
 	        }
 
+<<<<<<< HEAD
 	        //level 1 ËØÑ‰ª∑
+=======
+	        //level 1 ∆¿º€
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	        if (head ^ current) {
 	          sameCount++;
 	        } else {
@@ -12176,12 +12626,20 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 	//---------------------------------------------------------------------
+<<<<<<< HEAD
 	// QRMath‰ΩøÁî®ÁöÑÊï∞Â≠¶Â∑•ÂÖ∑
+=======
+	// QRMath π”√µƒ ˝—ßπ§æﬂ
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	//---------------------------------------------------------------------
 
 	var QRMath = {
 	  /*
+<<<<<<< HEAD
 	   Â∞ÜnËΩ¨Âåñ‰∏∫a^m
+=======
+	   Ω´n◊™ªØŒ™a^m
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	   */
 	  glog: function(n) {
 
@@ -12192,7 +12650,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	    return QRMath.LOG_TABLE[n];
 	  },
 	  /*
+<<<<<<< HEAD
 	   Â∞Üa^mËΩ¨Âåñ‰∏∫n
+=======
+	   Ω´a^m◊™ªØŒ™n
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	   */
 	  gexp: function(n) {
 
@@ -12224,11 +12686,19 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 
 	//---------------------------------------------------------------------
+<<<<<<< HEAD
 	// QRPolynomial Â§öÈ°πÂºè
 	//---------------------------------------------------------------------
 	/**
 	 * Â§öÈ°πÂºèÁ±ª
 	 * @param {Array} num   Á≥ªÊï∞
+=======
+	// QRPolynomial ∂‡œÓ Ω
+	//---------------------------------------------------------------------
+	/**
+	 * ∂‡œÓ Ω¿‡
+	 * @param {Array} num   œµ ˝
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	 * @param {num} shift a^shift
 	 */
 	function QRPolynomial(num, shift) {
@@ -12259,8 +12729,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	    return this.num.length;
 	  },
 	  /**
+<<<<<<< HEAD
 	   * Â§öÈ°πÂºè‰πòÊ≥ï
 	   * @param  {QRPolynomial} e Ë¢´‰πòÂ§öÈ°πÂºè
+=======
+	   * ∂‡œÓ Ω≥À∑®
+	   * @param  {QRPolynomial} e ±ª≥À∂‡œÓ Ω
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	   * @return {[type]}   [description]
 	   */
 	  multiply: function(e) {
@@ -12276,8 +12751,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	    return new QRPolynomial(num, 0);
 	  },
 	  /**
+<<<<<<< HEAD
 	   * Â§öÈ°πÂºèÊ®°ËøêÁÆó
 	   * @param  {QRPolynomial} e Ê®°Â§öÈ°πÂºè
+=======
+	   * ∂‡œÓ Ωƒ£‘ÀÀ„
+	   * @param  {QRPolynomial} e ƒ£∂‡œÓ Ω
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	   * @return {}
 	   */
 	  mod: function(e) {
@@ -12308,7 +12788,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	// RS_BLOCK_TABLE
 	//---------------------------------------------------------------------
 	/*
+<<<<<<< HEAD
 	 ‰∫åÁª¥Á†ÅÂêÑ‰∏™ÁâàÊú¨‰ø°ÊÅØ[ÂùóÊï∞, ÊØèÂùó‰∏≠ÁöÑÊï∞ÊçÆÂùóÊï∞, ÊØèÂùó‰∏≠ÁöÑ‰ø°ÊÅØÂùóÊï∞]
+=======
+	 ∂˛Œ¨¬Î∏˜∏ˆ∞Ê±æ–≈œ¢[øÈ ˝, √øøÈ÷–µƒ ˝æ›øÈ ˝, √øøÈ÷–µƒ–≈œ¢øÈ ˝]
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	 */
 	var RS_BLOCK_TABLE = [
 
@@ -12559,7 +13043,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	];
 
 	/**
+<<<<<<< HEAD
 	 * Ê†πÊçÆÊï∞ÊçÆËé∑ÂèñÂØπÂ∫îÁâàÊú¨
+=======
+	 * ∏˘æ› ˝æ›ªÒ»°∂‘”¶∞Ê±æ
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	 * @return {[type]} [description]
 	 */
 	QRCodeAlg.prototype.getRightType = function() {
@@ -12623,8 +13111,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	  }
 	};
 	/**
+<<<<<<< HEAD
 	 * Ëé∑ÂèñÂçï‰∏™Â≠óÁ¨¶ÁöÑutf8ÁºñÁ†Å
 	 * unicode BMPÂπ≥Èù¢Á∫¶65535‰∏™Â≠óÁ¨¶
+=======
+	 * ªÒ»°µ•∏ˆ◊÷∑˚µƒutf8±‡¬Î
+	 * unicode BMP∆Ω√Ê‘º65535∏ˆ◊÷∑˚
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	 * @param {num} code
 	 * return {array}
 	 */
@@ -12647,7 +13140,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 
 	/**
+<<<<<<< HEAD
 	 * Ëé∑ÂèñÂ≠óÁ¨¶‰∏≤ÁöÑutf8ÁºñÁ†ÅÂ≠óËäÇ‰∏≤
+=======
+	 * ªÒ»°◊÷∑˚¥Æµƒutf8±‡¬Î◊÷Ω⁄¥Æ
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	 * @param {string} string
 	 * @return {array}
 	 */
@@ -12664,6 +13161,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 
 	/**
+<<<<<<< HEAD
 	 * ‰∫åÁª¥Á†ÅÁÆóÊ≥ïÂÆûÁé∞
 	 * @param {string} data              Ë¶ÅÁºñÁ†ÅÁöÑ‰ø°ÊÅØÂ≠óÁ¨¶‰∏≤
 	 * @param {num} errorCorrectLevel Á∫†ÈîôÁ≠âÁ∫ß
@@ -12676,6 +13174,20 @@ return /******/ (function(modules) { // webpackBootstrap
 	  this.dataCache = null; //Êï∞ÊçÆÁºìÂ≠ò
 	  this.rsBlocks = null; //ÁâàÊú¨Êï∞ÊçÆ‰ø°ÊÅØ
 	  this.totalDataCount = -1; //ÂèØ‰ΩøÁî®ÁöÑÊï∞ÊçÆÈáè
+=======
+	 * ∂˛Œ¨¬ÎÀ„∑® µœ÷
+	 * @param {string} data              “™±‡¬Îµƒ–≈œ¢◊÷∑˚¥Æ
+	 * @param {num} errorCorrectLevel æ¿¥Ìµ»º∂
+	 */
+	function QRCodeAlg(data, errorCorrectLevel) {
+	  this.typeNumber = -1; //∞Ê±æ
+	  this.errorCorrectLevel = errorCorrectLevel;
+	  this.modules = null;  //∂˛Œ¨æÿ’Û£¨¥Ê∑≈◊Ó÷’Ω·π˚
+	  this.moduleCount = 0; //æÿ’Û¥Û–°
+	  this.dataCache = null; // ˝æ›ª∫¥Ê
+	  this.rsBlocks = null; //∞Ê±æ ˝æ›–≈œ¢
+	  this.totalDataCount = -1; //ø… π”√µƒ ˝æ›¡ø
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	  this.data = data;
 	  this.utf8bytes = getUTF8Bytes(data);
 	  this.make();
@@ -12684,14 +13196,23 @@ return /******/ (function(modules) { // webpackBootstrap
 	QRCodeAlg.prototype = {
 	  constructor: QRCodeAlg,
 	  /**
+<<<<<<< HEAD
 	   * Ëé∑Âèñ‰∫åÁª¥Á†ÅÁü©ÈòµÂ§ßÂ∞è
 	   * @return {num} Áü©ÈòµÂ§ßÂ∞è
+=======
+	   * ªÒ»°∂˛Œ¨¬Îæÿ’Û¥Û–°
+	   * @return {num} æÿ’Û¥Û–°
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	   */
 	  getModuleCount: function() {
 	    return this.moduleCount;
 	  },
 	  /**
+<<<<<<< HEAD
 	   * ÁºñÁ†Å
+=======
+	   * ±‡¬Î
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	   */
 	  make: function() {
 	    this.getRightType();
@@ -12699,9 +13220,15 @@ return /******/ (function(modules) { // webpackBootstrap
 	    this.createQrcode();
 	  },
 	  /**
+<<<<<<< HEAD
 	   * ËÆæÁΩÆ‰∫å‰ΩçÁü©ÈòµÂäüËÉΩÂõæÂΩ¢
 	   * @param  {bool} test Ë°®Á§∫ÊòØÂê¶Âú®ÂØªÊâæÊúÄÂ•ΩÊé©ËÜúÈò∂ÊÆµ
 	   * @param  {num} maskPattern Êé©ËÜúÁöÑÁâàÊú¨
+=======
+	   * …Ë÷√∂˛Œªæÿ’Ûπ¶ƒ‹Õº–Œ
+	   * @param  {bool} test ±Ì æ «∑Ò‘⁄—∞’“◊Ó∫√—⁄ƒ§Ω◊∂Œ
+	   * @param  {num} maskPattern —⁄ƒ§µƒ∞Ê±æ
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	   */
 	  makeImpl: function(maskPattern) {
 
@@ -12726,9 +13253,15 @@ return /******/ (function(modules) { // webpackBootstrap
 	    this.mapData(this.dataCache, maskPattern);
 	  },
 	  /**
+<<<<<<< HEAD
 	   * ËÆæÁΩÆ‰∫åÁª¥Á†ÅÁöÑ‰ΩçÁΩÆÊé¢ÊµãÂõæÂΩ¢
 	   * @param  {num} row Êé¢ÊµãÂõæÂΩ¢ÁöÑ‰∏≠ÂøÉÊ®™ÂùêÊ†á
 	   * @param  {num} col Êé¢ÊµãÂõæÂΩ¢ÁöÑ‰∏≠ÂøÉÁ∫µÂùêÊ†á
+=======
+	   * …Ë÷√∂˛Œ¨¬ÎµƒŒª÷√ÃΩ≤‚Õº–Œ
+	   * @param  {num} row ÃΩ≤‚Õº–Œµƒ÷––ƒ∫·◊¯±Í
+	   * @param  {num} col ÃΩ≤‚Õº–Œµƒ÷––ƒ◊›◊¯±Í
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	   */
 	  setupPositionProbePattern: function(row, col) {
 
@@ -12749,7 +13282,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	    }
 	  },
 	  /**
+<<<<<<< HEAD
 	   * ÂàõÂª∫‰∫åÁª¥Á†Å
+=======
+	   * ¥¥Ω®∂˛Œ¨¬Î
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	   * @return {[type]} [description]
 	   */
 	  createQrcode: function() {
@@ -12778,7 +13315,11 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	  },
 	  /**
+<<<<<<< HEAD
 	   * ËÆæÁΩÆÂÆö‰ΩçÂõæÂΩ¢
+=======
+	   * …Ë÷√∂®ŒªÕº–Œ
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	   * @return {[type]} [description]
 	   */
 	  setupTimingPattern: function() {
@@ -12796,7 +13337,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	    }
 	  },
 	  /**
+<<<<<<< HEAD
 	   * ËÆæÁΩÆÁü´Ê≠£ÂõæÂΩ¢
+=======
+	   * …Ë÷√Ω√’˝Õº–Œ
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	   * @return {[type]} [description]
 	   */
 	  setupPositionAdjustPattern: function() {
@@ -12829,8 +13374,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	    }
 	  },
 	  /**
+<<<<<<< HEAD
 	   * ËÆæÁΩÆÁâàÊú¨‰ø°ÊÅØÔºà7‰ª•‰∏äÁâàÊú¨ÊâçÊúâÔºâ
 	   * @param  {bool} test ÊòØÂê¶Â§Ñ‰∫éÂà§Êñ≠ÊúÄ‰Ω≥Êé©ËÜúÈò∂ÊÆµ
+=======
+	   * …Ë÷√∞Ê±æ–≈œ¢£®7“‘…œ∞Ê±æ≤≈”–£©
+	   * @param  {bool} test  «∑Ò¥¶”⁄≈–∂œ◊Óº——⁄ƒ§Ω◊∂Œ
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	   * @return {[type]}      [description]
 	   */
 	  setupTypeNumber: function(test) {
@@ -12844,9 +13394,15 @@ return /******/ (function(modules) { // webpackBootstrap
 	    }
 	  },
 	  /**
+<<<<<<< HEAD
 	   * ËÆæÁΩÆÊ†ºÂºè‰ø°ÊÅØÔºàÁ∫†ÈîôÁ≠âÁ∫ßÂíåÊé©ËÜúÁâàÊú¨Ôºâ
 	   * @param  {bool} test
 	   * @param  {num} maskPattern Êé©ËÜúÁâàÊú¨
+=======
+	   * …Ë÷√∏Ò Ω–≈œ¢£®æ¿¥Ìµ»º∂∫Õ—⁄ƒ§∞Ê±æ£©
+	   * @param  {bool} test
+	   * @param  {num} maskPattern —⁄ƒ§∞Ê±æ
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	   * @return {}
 	   */
 	  setupTypeInfo: function(test, maskPattern) {
@@ -12884,13 +13440,21 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	  },
 	  /**
+<<<<<<< HEAD
 	   * Êï∞ÊçÆÁºñÁ†Å
+=======
+	   *  ˝æ›±‡¬Î
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	   * @return {[type]} [description]
 	   */
 	  createData: function() {
 	    var buffer = new QRBitBuffer();
 	    var lengthBits = this.typeNumber > 9 ? 16 : 8;
+<<<<<<< HEAD
 	    buffer.put(4, 4); //Ê∑ªÂä†Ê®°Âºè
+=======
+	    buffer.put(4, 4); //ÃÌº”ƒ£ Ω
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	    buffer.put(this.utf8bytes.length, lengthBits);
 	    for (var i = 0, l = this.utf8bytes.length; i < l; i++) {
 	      buffer.put(this.utf8bytes[i], 8);
@@ -12920,8 +13484,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	    return this.createBytes(buffer);
 	  },
 	  /**
+<<<<<<< HEAD
 	   * Á∫†ÈîôÁ†ÅÁºñÁ†Å
 	   * @param  {buffer} buffer Êï∞ÊçÆÁºñÁ†Å
+=======
+	   * æ¿¥Ì¬Î±‡¬Î
+	   * @param  {buffer} buffer  ˝æ›±‡¬Î
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	   * @return {[type]}
 	   */
 	  createBytes: function(buffer) {
@@ -12998,7 +13567,11 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	  },
 	  /**
+<<<<<<< HEAD
 	   * Â∏ÉÁΩÆÊ®°ÂùóÔºåÊûÑÂª∫ÊúÄÁªà‰ø°ÊÅØ
+=======
+	   * ≤º÷√ƒ£øÈ£¨ππΩ®◊Ó÷’–≈œ¢
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	   * @param  {} data
 	   * @param  {} maskPattern
 	   * @return {}
@@ -13055,20 +13628,32 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	};
 	/**
+<<<<<<< HEAD
 	 * Â°´ÂÖÖÂ≠óÊÆµ
+=======
+	 * ÃÓ≥‰◊÷∂Œ
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	 */
 	QRCodeAlg.PAD0 = 0xEC;
 	QRCodeAlg.PAD1 = 0x11;
 
 
 	//---------------------------------------------------------------------
+<<<<<<< HEAD
 	// Á∫†ÈîôÁ≠âÁ∫ßÂØπÂ∫îÁöÑÁºñÁ†Å
+=======
+	// æ¿¥Ìµ»º∂∂‘”¶µƒ±‡¬Î
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	//---------------------------------------------------------------------
 
 	var QRErrorCorrectLevel = [1, 0, 3, 2];
 
 	//---------------------------------------------------------------------
+<<<<<<< HEAD
 	// Êé©ËÜúÁâàÊú¨
+=======
+	// —⁄ƒ§∞Ê±æ
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	//---------------------------------------------------------------------
 
 	var QRMaskPattern = {
@@ -13083,13 +13668,21 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 	//---------------------------------------------------------------------
+<<<<<<< HEAD
 	// Â∑•ÂÖ∑Á±ª
+=======
+	// π§æﬂ¿‡
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	//---------------------------------------------------------------------
 
 	var QRUtil = {
 
 	  /*
+<<<<<<< HEAD
 	   ÊØè‰∏™ÁâàÊú¨Áü´Ê≠£ÂõæÂΩ¢ÁöÑ‰ΩçÁΩÆ
+=======
+	   √ø∏ˆ∞Ê±æΩ√’˝Õº–ŒµƒŒª÷√
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	   */
 	  PATTERN_POSITION_TABLE: [
 	    [],
@@ -13139,7 +13732,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	  G15_MASK: (1 << 14) | (1 << 12) | (1 << 10) | (1 << 4) | (1 << 1),
 
 	  /*
+<<<<<<< HEAD
 	   BCHÁºñÁ†ÅÊ†ºÂºè‰ø°ÊÅØ
+=======
+	   BCH±‡¬Î∏Ò Ω–≈œ¢
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	   */
 	  getBCHTypeInfo: function(data) {
 	    var d = data << 10;
@@ -13149,7 +13746,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	    return ((data << 10) | d) ^ QRUtil.G15_MASK;
 	  },
 	  /*
+<<<<<<< HEAD
 	   BCHÁºñÁ†ÅÁâàÊú¨‰ø°ÊÅØ
+=======
+	   BCH±‡¬Î∞Ê±æ–≈œ¢
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	   */
 	  getBCHTypeNumber: function(data) {
 	    var d = data << 12;
@@ -13159,7 +13760,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	    return (data << 12) | d;
 	  },
 	  /*
+<<<<<<< HEAD
 	   Ëé∑ÂèñBCH‰Ωç‰ø°ÊÅØ
+=======
+	   ªÒ»°BCHŒª–≈œ¢
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	   */
 	  getBCHDigit: function(data) {
 
@@ -13173,13 +13778,21 @@ return /******/ (function(modules) { // webpackBootstrap
 	    return digit;
 	  },
 	  /*
+<<<<<<< HEAD
 	   Ëé∑ÂèñÁâàÊú¨ÂØπÂ∫îÁöÑÁü´Ê≠£ÂõæÂΩ¢‰ΩçÁΩÆ
+=======
+	   ªÒ»°∞Ê±æ∂‘”¶µƒΩ√’˝Õº–ŒŒª÷√
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	   */
 	  getPatternPosition: function(typeNumber) {
 	    return QRUtil.PATTERN_POSITION_TABLE[typeNumber - 1];
 	  },
 	  /*
+<<<<<<< HEAD
 	   Êé©ËÜúÁÆóÊ≥ï
+=======
+	   —⁄ƒ§À„∑®
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	   */
 	  getMask: function(maskPattern, i, j) {
 
@@ -13207,7 +13820,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	    }
 	  },
 	  /*
+<<<<<<< HEAD
 	   Ëé∑ÂèñRSÁöÑÁ∫†ÈîôÂ§öÈ°πÂºè
+=======
+	   ªÒ»°RSµƒæ¿¥Ì∂‡œÓ Ω
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	   */
 	  getErrorCorrectPolynomial: function(errorCorrectLength) {
 
@@ -13220,7 +13837,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	    return a;
 	  },
 	  /*
+<<<<<<< HEAD
 	   Ëé∑ÂèñËØÑ‰ª∑
+=======
+	   ªÒ»°∆¿º€
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	   */
 	  getLostPoint: function(qrCode) {
 
@@ -13237,7 +13858,11 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	        var current = qrCode.modules[row][col];
 
+<<<<<<< HEAD
 	        //level 3 ËØÑ‰ª∑
+=======
+	        //level 3 ∆¿º€
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	        if (col < moduleCount - 6) {
 	          if (current && !qrCode.modules[row][col + 1] && qrCode.modules[row][col + 2] && qrCode.modules[row][col + 3] && qrCode.modules[row][col + 4] && !qrCode.modules[row][col + 5] && qrCode.modules[row][col + 6]) {
 	            if (col < moduleCount - 10) {
@@ -13253,7 +13878,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	          }
 	        }
 
+<<<<<<< HEAD
 	        //level 2 ËØÑ‰ª∑
+=======
+	        //level 2 ∆¿º€
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	        if ((row < moduleCount - 1) && (col < moduleCount - 1)) {
 	          var count = 0;
 	          if (current) count++;
@@ -13265,7 +13894,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	          }
 	        }
 
+<<<<<<< HEAD
 	        //level 1 ËØÑ‰ª∑
+=======
+	        //level 1 ∆¿º€
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	        if (head ^ current) {
 	          sameCount++;
 	        } else {
@@ -13276,7 +13909,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	          sameCount = 1;
 	        }
 
+<<<<<<< HEAD
 	        //level 4 ËØÑ‰ª∑
+=======
+	        //level 4 ∆¿º€
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	        if (current) {
 	          darkCount++;
 	        }
@@ -13293,7 +13930,11 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	        var current = qrCode.modules[row][col];
 
+<<<<<<< HEAD
 	        //level 3 ËØÑ‰ª∑
+=======
+	        //level 3 ∆¿º€
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	        if (row < moduleCount - 6) {
 	          if (current && !qrCode.modules[row + 1][col] && qrCode.modules[row + 2][col] && qrCode.modules[row + 3][col] && qrCode.modules[row + 4][col] && !qrCode.modules[row + 5][col] && qrCode.modules[row + 6][col]) {
 	            if (row < moduleCount - 10) {
@@ -13308,7 +13949,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	          }
 	        }
 
+<<<<<<< HEAD
 	        //level 1 ËØÑ‰ª∑
+=======
+	        //level 1 ∆¿º€
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	        if (head ^ current) {
 	          sameCount++;
 	        } else {
@@ -13334,12 +13979,20 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 	//---------------------------------------------------------------------
+<<<<<<< HEAD
 	// QRMath‰ΩøÁî®ÁöÑÊï∞Â≠¶Â∑•ÂÖ∑
+=======
+	// QRMath π”√µƒ ˝—ßπ§æﬂ
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	//---------------------------------------------------------------------
 
 	var QRMath = {
 	  /*
+<<<<<<< HEAD
 	   Â∞ÜnËΩ¨Âåñ‰∏∫a^m
+=======
+	   Ω´n◊™ªØŒ™a^m
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	   */
 	  glog: function(n) {
 
@@ -13350,7 +14003,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	    return QRMath.LOG_TABLE[n];
 	  },
 	  /*
+<<<<<<< HEAD
 	   Â∞Üa^mËΩ¨Âåñ‰∏∫n
+=======
+	   Ω´a^m◊™ªØŒ™n
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	   */
 	  gexp: function(n) {
 
@@ -13382,11 +14039,19 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 
 	//---------------------------------------------------------------------
+<<<<<<< HEAD
 	// QRPolynomial Â§öÈ°πÂºè
 	//---------------------------------------------------------------------
 	/**
 	 * Â§öÈ°πÂºèÁ±ª
 	 * @param {Array} num   Á≥ªÊï∞
+=======
+	// QRPolynomial ∂‡œÓ Ω
+	//---------------------------------------------------------------------
+	/**
+	 * ∂‡œÓ Ω¿‡
+	 * @param {Array} num   œµ ˝
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	 * @param {num} shift a^shift
 	 */
 	function QRPolynomial(num, shift) {
@@ -13417,8 +14082,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	    return this.num.length;
 	  },
 	  /**
+<<<<<<< HEAD
 	   * Â§öÈ°πÂºè‰πòÊ≥ï
 	   * @param  {QRPolynomial} e Ë¢´‰πòÂ§öÈ°πÂºè
+=======
+	   * ∂‡œÓ Ω≥À∑®
+	   * @param  {QRPolynomial} e ±ª≥À∂‡œÓ Ω
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	   * @return {[type]}   [description]
 	   */
 	  multiply: function(e) {
@@ -13434,8 +14104,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	    return new QRPolynomial(num, 0);
 	  },
 	  /**
+<<<<<<< HEAD
 	   * Â§öÈ°πÂºèÊ®°ËøêÁÆó
 	   * @param  {QRPolynomial} e Ê®°Â§öÈ°πÂºè
+=======
+	   * ∂‡œÓ Ωƒ£‘ÀÀ„
+	   * @param  {QRPolynomial} e ƒ£∂‡œÓ Ω
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	   * @return {}
 	   */
 	  mod: function(e) {
@@ -13466,7 +14141,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	// RS_BLOCK_TABLE
 	//---------------------------------------------------------------------
 	/*
+<<<<<<< HEAD
 	 ‰∫åÁª¥Á†ÅÂêÑ‰∏™ÁâàÊú¨‰ø°ÊÅØ[ÂùóÊï∞, ÊØèÂùó‰∏≠ÁöÑÊï∞ÊçÆÂùóÊï∞, ÊØèÂùó‰∏≠ÁöÑ‰ø°ÊÅØÂùóÊï∞]
+=======
+	 ∂˛Œ¨¬Î∏˜∏ˆ∞Ê±æ–≈œ¢[øÈ ˝, √øøÈ÷–µƒ ˝æ›øÈ ˝, √øøÈ÷–µƒ–≈œ¢øÈ ˝]
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	 */
 	RS_BLOCK_TABLE = [
 
@@ -13717,7 +14396,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	];
 
 	/**
+<<<<<<< HEAD
 	 * Ê†πÊçÆÊï∞ÊçÆËé∑ÂèñÂØπÂ∫îÁâàÊú¨
+=======
+	 * ∏˘æ› ˝æ›ªÒ»°∂‘”¶∞Ê±æ
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	 * @return {[type]} [description]
 	 */
 	QRCodeAlg.prototype.getRightType = function() {
@@ -13978,7 +14661,11 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	    /*
 	     if (offsetBottom) {
+<<<<<<< HEAD
 	     // ÔºàÂ∫ïÈÉ®ËæπË∑ù + ÂÖÉÁ¥†È´òÂ∫¶ > Á™óÂè£È´òÂ∫¶Ôºâ Êó∂ÂÆö‰ΩçÂà∞Â∫ïÈÉ®
+=======
+	     // £®µ◊≤ø±ﬂæ‡ + ‘™Àÿ∏ﬂ∂» > ¥∞ø⁄∏ﬂ∂»£©  ±∂®ŒªµΩµ◊≤ø
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	     if ((offsetBottom + this.offset.height > $(window).height()) &&
 	     (scrollTop + $(window).height() >= scrollHeight - offsetBottom)) {
 	     $element.addClass(options.className.stickyBtm).
@@ -14249,8 +14936,13 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	module.exports = UI.tabs = Tabs;
 
+<<<<<<< HEAD
 	// TODO: 1. Ajax ÊîØÊåÅ
 	//       2. touch ‰∫ã‰ª∂Â§ÑÁêÜÈÄªËæë‰ºòÂåñ
+=======
+	// TODO: 1. Ajax ÷ß≥÷
+	//       2. touch  ¬º˛¥¶¿Ì¬ﬂº≠”≈ªØ
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 
 
 /***/ },
@@ -14365,7 +15057,11 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	module.exports = UCheck;
 
+<<<<<<< HEAD
 	// TODO: ‰∏éË°®ÂçïÈ™åËØÅÁªìÂêà‰ΩøÁî®ÁöÑÊÉÖÂÜµ
+=======
+	// TODO: ”Î±Ìµ•—È÷§Ω·∫œ π”√µƒ«Èøˆ
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 
 
 /***/ },
@@ -14480,6 +15176,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	Validator.validationMessages = {
 	  zh_CN: {
+<<<<<<< HEAD
 	    valueMissing: 'ËØ∑Â°´ÂÜôÔºàÈÄâÊã©ÔºâÊ≠§Â≠óÊÆµ',
 	    customError: {
 	      tooShort: 'Ëá≥Â∞ëÂ°´ÂÜô %s ‰∏™Â≠óÁ¨¶',
@@ -14492,6 +15189,20 @@ return /******/ (function(modules) { // webpackBootstrap
 	    stepMismatch: '',
 	    tooLong: 'Ëá≥Â§öÂ°´ÂÜô %s ‰∏™Â≠óÁ¨¶',
 	    typeMismatch: 'ËØ∑ÊåâÁÖßË¶ÅÊ±ÇÁöÑÁ±ªÂûãÂ°´ÂÜô'
+=======
+	    valueMissing: '«ÎÃÓ–¥£®—°‘Ò£©¥À◊÷∂Œ',
+	    customError: {
+	      tooShort: '÷¡…ŸÃÓ–¥ %s ∏ˆ◊÷∑˚',
+	      checkedOverflow: '÷¡∂‡—°‘Ò %s œÓ',
+	      checkedUnderflow: '÷¡…Ÿ—°‘Ò %s œÓ'
+	    },
+	    patternMismatch: '«Î∞¥’’“™«Ûµƒ∏Ò ΩÃÓ–¥',
+	    rangeOverflow: '«ÎÃÓ–¥–°”⁄µ»”⁄ %s µƒ÷µ',
+	    rangeUnderflow: '«ÎÃÓ–¥¥Û”⁄µ»”⁄ %s µƒ÷µ',
+	    stepMismatch: '',
+	    tooLong: '÷¡∂‡ÃÓ–¥ %s ∏ˆ◊÷∑˚',
+	    typeMismatch: '«Î∞¥’’“™«Ûµƒ¿‡–ÕÃÓ–¥'
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	  }
 	};
 
@@ -14504,9 +15215,15 @@ return /******/ (function(modules) { // webpackBootstrap
 	  tooLong: 'maxlength'
 	};
 
+<<<<<<< HEAD
 	// TODO: ËÄÉËôëË°®ÂçïÂÖÉÁ¥†‰∏çÊòØ form Â≠êÂÖÉÁ¥†ÁöÑÊÉÖÂΩ¢
 	// TODO: change/click/focusout ÂêåÊó∂Ëß¶ÂèëÊó∂Â§ÑÁêÜÈáçÂ§ç
 	// TODO: ÊòæÁ§∫ÊèêÁ§∫‰ø°ÊÅØ
+=======
+	// TODO: øº¬«±Ìµ•‘™Àÿ≤ª « form ◊”‘™Àÿµƒ«È–Œ
+	// TODO: change/click/focusout Õ¨ ±¥•∑¢ ±¥¶¿Ì÷ÿ∏¥
+	// TODO: œ‘ æÃ· æ–≈œ¢
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 
 	Validator.prototype.init = function() {
 	  var _this = this;
@@ -14676,7 +15393,11 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	  // check minimum and maximum
 	  // https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Input
+<<<<<<< HEAD
 	  // TODO: Êó•ÊúüÈ™åËØÅÊúÄÂ∞èÂÄºÂíåÊúÄÂ§ßÂÄº min/max
+=======
+	  // TODO: »’∆⁄—È÷§◊Ó–°÷µ∫Õ◊Ó¥Û÷µ min/max
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	  if (!isNaN(min) && Number(value) < min) {
 	    validity.valid = false;
 	    validity.rangeUnderflow = true;
@@ -14705,13 +15426,21 @@ return /******/ (function(modules) { // webpackBootstrap
 	    var maxChecked = parseInt($field.attr('maxchecked'), 10);
 
 	    if (!isNaN(minChecked) && value < minChecked) {
+<<<<<<< HEAD
 	      // console.log('At least [%d] items checkedÔºÅ', maxChecked);
+=======
+	      // console.log('At least [%d] items checked£°', maxChecked);
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	      validity.valid = false;
 	      validity.customError = 'checkedUnderflow';
 	    }
 
 	    if (!isNaN(maxChecked) && value > maxChecked) {
+<<<<<<< HEAD
 	      // console.log('At most [%d] items checkedÔºÅ', maxChecked);
+=======
+	      // console.log('At most [%d] items checked£°', maxChecked);
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	      validity.valid = false;
 	      validity.customError = 'checkedOverflow';
 	    }
@@ -14930,7 +15659,11 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	  if (message && Validator.ERROR_MAP[error]) {
 	    message = message.replace(placeholder,
+<<<<<<< HEAD
 	      $field.attr(Validator.ERROR_MAP[error]) || 'ËßÑÂÆöÁöÑ');
+=======
+	      $field.attr(Validator.ERROR_MAP[error]) || 'πÊ∂®µƒ');
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	  }
 
 	  return message;
@@ -15487,7 +16220,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	    short_name: dsShortName
 	  };
 
+<<<<<<< HEAD
 	  // Â∑≤ÁªèÊúâÂ§öËØ¥ËÑöÊú¨
+=======
+	  // “—æ≠”–∂‡ÀµΩ≈±æ
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	  if ($('script[src="' + dsSrc + '"]').length) {
 	    return;
 	  }
@@ -15775,6 +16512,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  }).attr('src', 'http://api.map.baidu.com/getscript' +
 	  '?type=quick&file=api&ak=WVAXZ05oyNRXS5egLImmentg&t=20140109092002');
 
+<<<<<<< HEAD
 	  // jQuery ‰∏≠ `load` ‰∫ã‰ª∂Ëß¶ÂèëÊúâÈóÆÈ¢òÔºåÂä®ÊÄÅËÆæÁΩÆ src Â±ûÊÄßÊâç‰ºöËß¶Âèë `load` ‰∫ã‰ª∂
 	  // $mapApi0 = $('<script />', {src: 'xxx'}); ËøôÊ†∑ÁöÑÂÜôÊ≥ïÂú® Zepto.js ‰∏≠ÂàôÊ≤°ÊúâÈóÆÈ¢ò
 	}
@@ -15786,6 +16524,19 @@ return /******/ (function(modules) { // webpackBootstrap
 	  var content = document.querySelector('.am-map');
 	  var defaultLng = 116.331398; // ÁªèÂ∫¶ÈªòËÆ§ÂÄº
 	  var defaultLat = 39.897445;  // Á∫¨Â∫¶ÈªòËÆ§ÂÄº
+=======
+	  // jQuery ÷– `load`  ¬º˛¥•∑¢”–Œ Ã‚£¨∂ØÃ¨…Ë÷√ src  Ù–‘≤≈ª·¥•∑¢ `load`  ¬º˛
+	  // $mapApi0 = $('<script />', {src: 'xxx'}); ’‚—˘µƒ–¥∑®‘⁄ Zepto.js ÷–‘Ú√ª”–Œ Ã‚
+	}
+
+	function addBdMap() {
+	  // »Áπ˚ π”√ $ —°‘Ò∑˚£¨minify “‘∫Ûª·±®¥Ì: $ is undefined
+	  // º¥ π¥´»Î $ “≤Œﬁ–ß£¨∏ƒŒ™ π”√‘≠…˙∑Ω∑®
+	  // ’‚∏ˆ∫Ø ˝◊˜Œ™ callback ª·≤Â»ÎµΩ body “‘∫Û≤≈÷¥––£¨”¶∏√ « $ “˝”√¥ÌŒÛµº÷¬
+	  var content = document.querySelector('.am-map');
+	  var defaultLng = 116.331398; // æ≠∂»ƒ¨»œ÷µ
+	  var defaultLat = 39.897445;  // Œ≥∂»ƒ¨»œ÷µ
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	  var name = content.getAttribute('data-name');
 	  var address = content.getAttribute('data-address');
 	  var lng = content.getAttribute('data-longitude') || defaultLng;
@@ -15795,6 +16546,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	  var map = new BMap.Map('bd-map');
 
+<<<<<<< HEAD
 	  // ÂÆû‰æãÂåñ‰∏Ä‰∏™Âú∞ÁêÜÂùêÊ†áÁÇπ
 	  var point = new BMap.Point(lng, lat);
 
@@ -15802,22 +16554,40 @@ return /******/ (function(modules) { // webpackBootstrap
 	  map.centerAndZoom(point, setZoom);
 
 	  // Ê∑ªÂä†Âú∞ÂõæÁº©ÊîæÊéß‰ª∂
+=======
+	  //  µ¿˝ªØ“ª∏ˆµÿ¿Ì◊¯±Íµ„
+	  var point = new BMap.Point(lng, lat);
+
+	  // …Ë≥ı ºªØµÿÕº, options: 3-18
+	  map.centerAndZoom(point, setZoom);
+
+	  // ÃÌº”µÿÕºÀı∑≈øÿº˛
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	  if (content.getAttribute('data-zoomControl')) {
 	    map.addControl(new BMap.ZoomControl());
 	  }
 
+<<<<<<< HEAD
 	  // Ê∑ªÂä†ÊØî‰æãÂ∞∫Êéß‰ª∂
+=======
+	  // ÃÌº”±»¿˝≥ﬂøÿº˛
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	  if (content.getAttribute('data-scaleControl')) {
 	    map.addControl(new BMap.ScaleControl());
 	  }
 
+<<<<<<< HEAD
 	  // ÂàõÂª∫Ê†áÂáÜ‰∏éËá™ÂÆö‰πâ icon
+=======
+	  // ¥¥Ω®±Í◊º”Î◊‘∂®“Â icon
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	  var marker = new BMap.Marker(point);
 	  if (icon) {
 	    marker.setIcon(new BMap.Icon(icon, new BMap.Size(40, 40)));
 	  }
 
 	  var opts = {
+<<<<<<< HEAD
 	    width: 200,     // ‰ø°ÊÅØÁ™óÂè£ÂÆΩÂ∫¶
 	    // height: 'auto',     // ‰ø°ÊÅØÁ™óÂè£È´òÂ∫¶
 	    title: name // ‰ø°ÊÅØÁ™óÂè£Ê†áÈ¢ò
@@ -15833,25 +16603,56 @@ return /******/ (function(modules) { // webpackBootstrap
 	  if (lng == defaultLng && lat == defaultLat) {
 	    // ‰ΩøÁî®Âú∞ÂùÄÂèçËß£ÊûêÊù•ËÆæÁΩÆÂú∞Âõæ
 	    // Â∞ÜÂú∞ÂùÄËß£ÊûêÁªìÊûúÊòæÁ§∫Âú®Âú∞Âõæ‰∏ä,Âπ∂Ë∞ÉÊï¥Âú∞ÂõæËßÜÈáé
+=======
+	    width: 200,     // –≈œ¢¥∞ø⁄øÌ∂»
+	    // height: 'auto',     // –≈œ¢¥∞ø⁄∏ﬂ∂»
+	    title: name // –≈œ¢¥∞ø⁄±ÍÃ‚
+	  };
+
+	  // ¥¥Ω®–≈œ¢¥∞ø⁄∂‘œÛ
+	  var infoWindow = new BMap.InfoWindow('µÿ÷∑£∫' + address, opts);
+
+	  // ¥¥Ω®µÿ÷∑Ω‚Œˆ∆˜ µ¿˝
+	  var myGeo = new BMap.Geocoder();
+
+	  // ≈–∂œ”–√ª”– π”√æ≠Œ≥∂»
+	  if (lng == defaultLng && lat == defaultLat) {
+	    //  π”√µÿ÷∑∑¥Ω‚Œˆ¿¥…Ë÷√µÿÕº
+	    // Ω´µÿ÷∑Ω‚ŒˆΩ·π˚œ‘ æ‘⁄µÿÕº…œ,≤¢µ˜’˚µÿÕº ”“∞
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	    myGeo.getPoint(address, function(point) {
 	      if (point) {
 	        map.centerAndZoom(point, setZoom);
 	        marker.setPosition(point);
 	        map.addOverlay(marker);
+<<<<<<< HEAD
 	        map.openInfoWindow(infoWindow, point); // ÂºÄÂêØ‰ø°ÊÅØÁ™óÂè£
+=======
+	        map.openInfoWindow(infoWindow, point); // ø™∆Ù–≈œ¢¥∞ø⁄
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	      }
 	    }, '');
 
 	  } else {
+<<<<<<< HEAD
 	    // ‰ΩøÁî®ÁªèÁ∫¨Â∫¶Êù•ËÆæÁΩÆÂú∞Âõæ
+=======
+	    //  π”√æ≠Œ≥∂»¿¥…Ë÷√µÿÕº
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	    myGeo.getLocation(point, function(result) {
 	      map.centerAndZoom(point, setZoom);
 	      marker.setPosition(point);
 	      map.addOverlay(marker);
 	      if (address) {
+<<<<<<< HEAD
 	        map.openInfoWindow(infoWindow, point); // ÂºÄÂêØ‰ø°ÊÅØÁ™óÂè£
 	      } else {
 	        map.openInfoWindow(new BMap.InfoWindow(address, opts), point); // ÂºÄÂêØ‰ø°ÊÅØÁ™óÂè£
+=======
+	        map.openInfoWindow(infoWindow, point); // ø™∆Ù–≈œ¢¥∞ø⁄
+	      } else {
+	        map.openInfoWindow(new BMap.InfoWindow(address, opts), point); // ø™∆Ù–≈œ¢¥∞ø⁄
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	      }
 	    });
 	  }
@@ -15988,7 +16789,11 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	    // $navTopItem.eq(0).addClass('am-active');
 
+<<<<<<< HEAD
 	    // ËÆ°ÁÆóÂá∫ÊâÄÊúâ li ÂÆΩÂ∫¶
+=======
+	    // º∆À„≥ˆÀ˘”– li øÌ∂»
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	    $navTopItem.each(function(i) {
 	      allWidth += parseFloat($(this).css('width'));
 	    });
@@ -16015,11 +16820,16 @@ return /******/ (function(modules) { // webpackBootstrap
 	        $clicked.siblings().removeClass('am-open');
 	      }
 
+<<<<<<< HEAD
 	      // Á¨¨‰∏ÄÊ¨°Ë∞ÉÁî®ÔºåÊ≤°ÊúâprevIndex
+=======
+	      // µ⁄“ª¥Œµ˜”√£¨√ª”–prevIndex
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	      if (prevIndex === undefined) {
 	        prevIndex = $(this).index() ? 0 : 1;
 	      }
 
+<<<<<<< HEAD
 	      // Âà§Êñ≠ÊñπÂêë
 	      var dir = $(this).index() > prevIndex;
 	      var target = $(this)[dir ? 'next' : 'prev']();
@@ -16029,6 +16839,17 @@ return /******/ (function(modules) { // webpackBootstrap
 	      var within = $this.offset();
 
 	      // Áà∂Á±ªÂ∑¶ËæπË∑ù
+=======
+	      // ≈–∂œ∑ΩœÚ
+	      var dir = $(this).index() > prevIndex;
+	      var target = $(this)[dir ? 'next' : 'prev']();
+
+	      // µ„ª˜µƒ∞¥≈•£¨œ‘ æ“ª∞Î
+	      var offset = target.offset() || $(this).offset();
+	      var within = $this.offset();
+
+	      // ∏∏¿‡◊Û±ﬂæ‡
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	      var listOffset;
 	      var parentLeft = parseInt($this.css('padding-left'));
 
@@ -16086,7 +16907,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	  var configItems = $navBarNav.attr('class') &&
 	    parseInt($navBarNav.attr('class').
 	      match(/am-avg-sm-(\d+)/)[1]) || 3;
+<<<<<<< HEAD
 	  var navMinWidth = 60; // ÊØè‰∏™ li ÊúÄÂ∞èÂÆΩÂ∫¶
+=======
+	  var navMinWidth = 60; // √ø∏ˆ li ◊Ó–°øÌ∂»
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	  var offsetWidth = 16;
 	  var $share = $navItems.filter('[data-am-navbar-share]');
 	  var $qrcode = $navItems.filter('[data-am-navbar-qrcode]');
@@ -16097,9 +16922,15 @@ return /******/ (function(modules) { // webpackBootstrap
 	  var $moreLink = $('<li class="am-navbar-labels am-navbar-more">' +
 	  '<a href="javascript: void(0);">' +
 	  '<span class="am-icon-angle-up"></span>' +
+<<<<<<< HEAD
 	  '<span class="am-navbar-label">Êõ¥Â§ö</span></a></li>');
 
 	  // Â¶ÇÊûúÊúâ Fix ÁöÑÂ∑•ÂÖ∑Ê†èÂàôËÆæÁΩÆ body ÁöÑ padding-bottom
+=======
+	  '<span class="am-navbar-label">∏¸∂‡</span></a></li>');
+
+	  // »Áπ˚”– Fix µƒπ§æﬂ¿∏‘Ú…Ë÷√ body µƒ padding-bottom
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	  if ($navBar.css('position') == 'fixed') {
 	    $body.addClass('am-with-fixed-navbar');
 	  }
@@ -16118,7 +16949,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	      });
 	      var $qrContainer = $qrModal.find('.am-modal-bd');
 
+<<<<<<< HEAD
 	      // Âà§Êñ≠‰∏ä‰º†Ëá™ÂÆö‰πâÁöÑ‰∫åÁª¥Á†ÅÊ≤°ÊúâÔºåÂê¶ÂàôÁîüÊàê‰∫åÁª¥Á†Å
+=======
+	      // ≈–∂œ…œ¥´◊‘∂®“Âµƒ∂˛Œ¨¬Î√ª”–£¨∑Ò‘Ú…˙≥…∂˛Œ¨¬Î
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	      if (qrImg) {
 	        $qrContainer.html('<img src="' + qrImg + '"/>');
 	      } else {
@@ -16165,7 +17000,11 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	  function checkNavBarItems() {
 	    if (calcSuiteItems() >= navItemsCounter) {
+<<<<<<< HEAD
 	      // ÊòæÁ§∫ÊâÄÊúâÈìæÊé•ÔºåÈöêËóè more
+=======
+	      // œ‘ æÀ˘”–¡¥Ω”£¨“˛≤ÿ more
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	      $moreLink.hide();
 	      $moreActions.find('li').insertBefore($moreLink);
 	      return;
@@ -16191,7 +17030,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	  }
 
 	  /**
+<<<<<<< HEAD
 	   * ËÆ°ÁÆóÊúÄÈÄÇÂêàÊòæÁ§∫ÁöÑÊù°ÁõÆ‰∏™Êï∞
+=======
+	   * º∆À„◊Ó  ∫œœ‘ æµƒÃıƒø∏ˆ ˝
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	   * @returns {number}
 	   */
 	  function calcSuiteItems() {
@@ -16252,8 +17095,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	__webpack_require__(20);
 
 	/**
+<<<<<<< HEAD
 	 * Ë°®Ê†ºÊªöÂä®
 	 * @param {number} index ID Ê†áËØÜÔºåÂ§ö‰∏™ paragraph ÈáåÈù¢Â§ö‰∏™ table
+=======
+	 * ±Ì∏Òπˆ∂Ø
+	 * @param {number} index ID ±Í ∂£¨∂‡∏ˆ paragraph ¿Ô√Ê∂‡∏ˆ table
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	 */
 	$.fn.scrollTable = function(index) {
 	  var $this = $(this);
@@ -16408,7 +17256,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	    // console.log(options);
 	    // alert('pay button clicked');
 	    if (!window.wx) {
+<<<<<<< HEAD
 	      alert('Ê≤°ÊúâÂæÆ‰ø° JS SDK');
+=======
+	      alert('√ª”–Œ¢–≈ JS SDK');
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	      return;
 	    }
 
@@ -16418,11 +17270,19 @@ return /******/ (function(modules) { // webpackBootstrap
 	        if (res.checkResult.chooseWXPay) {
 	          wx.chooseWXPay(options);
 	        } else {
+<<<<<<< HEAD
 	          alert('ÂæÆ‰ø°ÁâàÊú¨‰∏çÊîØÊåÅÊîØ‰ªòÊé•Âè£ÊàñÊ≤°ÊúâÂºÄÂêØÔºÅ');
 	        }
 	      },
 	      fail: function() {
 	        alert('Ë∞ÉÁî® checkJsApi Êé•Âè£Êó∂ÂèëÁîüÈîôËØØ!');
+=======
+	          alert('Œ¢–≈∞Ê±æ≤ª÷ß≥÷÷ß∏∂Ω”ø⁄ªÚ√ª”–ø™∆Ù£°');
+	        }
+	      },
+	      fail: function() {
+	        alert('µ˜”√ checkJsApi Ω”ø⁄ ±∑¢…˙¥ÌŒÛ!');
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	      }
 	    });
 	  });

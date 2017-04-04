@@ -13,7 +13,11 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   <meta name="keywords" content="">
   <meta name="viewport"
         content="width=device-width, initial-scale=1">
+<<<<<<< HEAD
   <title>3D-Space—MyOrder</title>
+=======
+  <title>Show dbq</title>
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 
   <!-- Set render engine for 360 browser -->
   <meta name="renderer" content="webkit">
@@ -47,10 +51,17 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
+<<<<<<< HEAD
   		<li><a href="/3D-Space/goTo.do?flag=GoToHomePage" >HomePage</a></li>
         <li><a href="/3D-Space/goTo.do?flag=GoToCustomize">Customize</a></li>
         <li><a href="/3D-Space/goTo.do?flag=GoToShoppingCart">My Cart</a></li>
         <li class="active"><a href="/3D-Space/goTo.do?flag=GoToMyOrders">My Order<span class="sr-only">(current)</span></a></li>
+=======
+  		<li class="active"><a href="/3D-Space/goTo.do?flag=GoToHomePage" >HomePage<span class="sr-only">(current)</span></a></li>
+        <li><a href="#">Customize</a></li>
+        <li><a href="/3D-Space/goTo.do?flag=GoToShoppingCart">My Cart</a></li>
+        <li><a href="/3D-Space/goTo.do?flag=GoToMyOrders">My Order</a></li>
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
          <li><a href="/3D-Space/goTo.do?flag=GoToMyFavorites">MyFavorites</a></li>
         
       </ul>
@@ -62,7 +73,11 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
     
       </form>
       <ul class="nav navbar-nav navbar-left" style = "width:40px">
+<<<<<<< HEAD
         <li><a href="/3D-Space">Login/Register</a></li>
+=======
+        <li><a href="/3D-Space/goTo.do?flag=GoToLoginRegister">Login/Register</a></li>
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
     </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
@@ -87,16 +102,27 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 		
 		<thead>
         <tr>
+<<<<<<< HEAD
             <th>UserId</th>
             <th>UserName</th>
             <th>UserEmail</th>
             <th>Telphone</th>
+=======
+           
+            <th>UserName</th>
+            <th>UserEmail</th>
+            <th>Telephone</th>
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 			<th>Address</th>
         </tr>
 		</thead>   
     		
 		<tbody>
+<<<<<<< HEAD
         <td style="vertical-align:middle;"><%=((User)session.getAttribute("SignInUser")).getU_id()%></td>
+=======
+        
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
         <td style="vertical-align:middle;"><%=((User)session.getAttribute("SignInUser")).getU_name()%></td>
         <td style="vertical-align:middle;"><%=((User)session.getAttribute("SignInUser")).getU_email()%></td>
         <td style="vertical-align:middle;"><%=((User)session.getAttribute("SignInUser")).getU_phoneNumber()%></td>

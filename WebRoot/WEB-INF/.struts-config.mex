@@ -4,8 +4,11 @@
   <StrutsActivity path="/signIn.do" location="240,135" dimension="295,104" />
   <StrutsActivity path="/shoppingCl.do" location="15,495" dimension="326,104" />
   <StrutsActivity path="/goTo.do" location="-465,165" dimension="291,104" />
+<<<<<<< HEAD
   <StrutsActivity path="/searched.do" location="660,300" dimension="313,104" />
   <StrutsActivity path="/comment.do" location="-675,660" dimension="315,104" />
+=======
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
   <StrutsActivity path="Err;6" location="990,15" dimension="150,100" />
   <StrutsActivity path="GoToHomePage;6" location="990,135" dimension="150,100" />
   <StrutsActivity path="/WEB-INF/SignUpOk.jsp" location="645,15" dimension="150,100" />
@@ -17,7 +20,10 @@
   <StrutsActivity path="/WEB-INF/SubmitOrderOk.jsp" location="495,495" dimension="150,100" />
   <StrutsActivity path="/WEB-INF/Goods.jsp" location="-675,510" dimension="150,100" />
   <StrutsActivity path="/WEB-INF/ShoppingCart.jsp" location="270,285" dimension="150,100" />
+<<<<<<< HEAD
   <StrutsActivity path="/WEB-INF/Customize.jsp" location="495,405" dimension="151,76" />
+=======
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
   <StrutsActivity path="/WEB-INF/Err.jsp" location="810,15" dimension="150,100" />
   <StrutsTransition id="/shoppingCl.do,SubmitOrderOk,/WEB-INF/SubmitOrderOk.jsp,1" routingType="0">
     <AutomaticBendpoints>
@@ -48,17 +54,29 @@
       <AbsolutePoint location="645,65" />
     </AutomaticBendpoints>
   </StrutsTransition>
+<<<<<<< HEAD
   <StrutsTransition id="/searched.do,GoToSearch,/WEB-INF/HomePage.jsp,1" routingType="0">
     <AutomaticBendpoints>
       <AbsolutePoint location="720,300" />
       <AbsolutePoint location="720,235" />
     </AutomaticBendpoints>
   </StrutsTransition>
+=======
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
   <StrutsTransition id="/WEB-INF/SignIn.jsp,null,/signIn.do,2" routingType="1">
     <Bendpoints>
       <Point rDim1="120,-5" rDim2="-192,-7" />
     </Bendpoints>
   </StrutsTransition>
+<<<<<<< HEAD
+=======
+  <StrutsTransition id="/goTo.do,GoToSignIn,/WEB-INF/SignIn.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="-174,185" />
+      <AbsolutePoint location="15,185" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
   <StrutsTransition id="/goTo.do,GoToMyFavorites,/WEB-INF/MyFavorites.jsp,1" routingType="0">
     <AutomaticBendpoints>
       <AbsolutePoint location="-420,269" />
@@ -83,6 +101,15 @@
       <AbsolutePoint location="-525,560" />
     </AutomaticBendpoints>
   </StrutsTransition>
+<<<<<<< HEAD
+=======
+  <StrutsTransition id="/goTo.do,GoToLoginRegister,/WEB-INF/SignUp.jsp,1" routingType="1">
+    <Bendpoints>
+      <Point rDim1="-85,-127" rDim2="-495,25" />
+      <Point rDim1="-85,-187" rDim2="-495,-35" />
+    </Bendpoints>
+  </StrutsTransition>
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
   <StrutsTransition id="/signIn.do,SignInOk,/WEB-INF/HomePage.jsp,1" routingType="0">
     <AutomaticBendpoints>
       <AbsolutePoint location="535,185" />
@@ -95,12 +122,20 @@
       <AbsolutePoint location="795,185" />
     </AutomaticBendpoints>
   </StrutsTransition>
+<<<<<<< HEAD
   <StrutsTransition id="/goTo.do,GoToSignUp,/WEB-INF/SignUp.jsp,1" routingType="0">
     <AutomaticBendpoints>
       <AbsolutePoint location="-319,165" />
       <AbsolutePoint location="-319,65" />
       <AbsolutePoint location="15,65" />
     </AutomaticBendpoints>
+=======
+  <StrutsTransition id="/goTo.do,GoToSignUp,/WEB-INF/SignUp.jsp,1" routingType="1">
+    <Bendpoints>
+      <Point rDim1="5,-127" rDim2="-405,25" />
+      <Point rDim1="170,-127" rDim2="-240,25" />
+    </Bendpoints>
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
   </StrutsTransition>
   <StrutsTransition id="/goTo.do,GoToGoods,/WEB-INF/Goods.jsp,1" routingType="0">
     <AutomaticBendpoints>
@@ -109,6 +144,7 @@
       <AbsolutePoint location="-600,510" />
     </AutomaticBendpoints>
   </StrutsTransition>
+<<<<<<< HEAD
   <StrutsTransition id="/goTo.do,GoToCustomize,/WEB-INF/Customize.jsp,1" routingType="0">
     <AutomaticBendpoints>
       <AbsolutePoint location="-174,254" />
@@ -116,13 +152,19 @@
       <AbsolutePoint location="570,405" />
     </AutomaticBendpoints>
   </StrutsTransition>
+=======
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
   <StrutsTransition id="/shoppingCl.do,GoToFavorites,/WEB-INF/MyFavorites.jsp,1" routingType="0">
     <AutomaticBendpoints>
       <AbsolutePoint location="15,510" />
       <AbsolutePoint location="-345,510" />
     </AutomaticBendpoints>
   </StrutsTransition>
+<<<<<<< HEAD
   <StrutsTransition id="/goTo.do,GoToSignInUp,/WEB-INF/SignIn.jsp,1" routingType="0">
+=======
+  <StrutsTransition id="/goTo.do,GoToLoginRegister,/WEB-INF/SignIn.jsp,1" routingType="0">
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
     <AutomaticBendpoints>
       <AbsolutePoint location="-174,185" />
       <AbsolutePoint location="15,185" />
@@ -134,12 +176,15 @@
       <AbsolutePoint location="-315,360" />
     </AutomaticBendpoints>
   </StrutsTransition>
+<<<<<<< HEAD
   <StrutsTransition id="/comment.do,comment,/WEB-INF/Goods.jsp,1" routingType="0">
     <AutomaticBendpoints>
       <AbsolutePoint location="-600,660" />
       <AbsolutePoint location="-600,610" />
     </AutomaticBendpoints>
   </StrutsTransition>
+=======
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
   <StrutsTransition id="/goTo.do,GoToShoppingCart,/WEB-INF/ShoppingCart.jsp,1" routingType="1">
     <Bendpoints>
       <Point rDim1="1,128" rDim2="-409,-20" />

@@ -56,6 +56,7 @@ public class ShoppingClAction extends DispatchAction {
 	public ActionForward AddToCart(ActionMapping mapping, ActionForm form,
 			HttpServletRequest request, HttpServletResponse response) {
 		// TODO Auto-generated method stub
+<<<<<<< HEAD
 		String GoodsId=request.getParameter("GoodsId");
 		//取出购物车并添加
 		MyCart myCart=(MyCart) request.getSession().getAttribute("MyCart");
@@ -65,6 +66,22 @@ public class ShoppingClAction extends DispatchAction {
 		request.setAttribute("MyCartList", myCart.ShowMyCart());
 		request.setAttribute("TotalPrice", myCart.GetTotalPrice()+"");
 		return mapping.findForward("GoToCart");
+=======
+		if(request.getSession().getAttribute("SignInUser")==null){
+			request.setAttribute("ErrInfo", "Please sign in or register first!");
+			return mapping.findForward("Err");	
+		}else{
+			String GoodsId=request.getParameter("GoodsId");
+			//取出购物车并添加
+			MyCart myCart=(MyCart) request.getSession().getAttribute("MyCart");
+			myCart.AddGoodsToCart(GoodsId);
+			
+			//准备显示
+			request.setAttribute("MyCartList", myCart.ShowMyCart());
+			request.setAttribute("TotalPrice", myCart.GetTotalPrice()+"");
+			return mapping.findForward("GoToCart");
+		}	
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 	}
 	
 	public ActionForward DeleteFromCart(ActionMapping mapping, ActionForm form,

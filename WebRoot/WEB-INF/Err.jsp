@@ -42,8 +42,13 @@ margin-right: auto;">
     <div class="container" style="width:400px;margin-top:50px"> 
 		
 		<h4 class="form-signin-heading">${ErrInfo}</h4><br/><%-- 显示错误信息  --%>
+<<<<<<< HEAD
 		<a href="/3D-Space/goTo.do?flag=GoToSignInUp">
 		<h4 class="form-signin-heading"> Back to sign in page</h4>
+=======
+		<a href="/3D-Space/goTo.do?flag=GoToLoginRegister">
+		<h4 class="form-signin-heading"> Back to SignIn page</h4>
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 		</a>
     </div> <!-- /container -->
   </div>

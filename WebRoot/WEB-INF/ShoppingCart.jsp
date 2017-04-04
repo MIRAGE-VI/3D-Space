@@ -13,7 +13,11 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   <meta name="keywords" content="">
   <meta name="viewport"
         content="width=device-width, initial-scale=1">
+<<<<<<< HEAD
   <title>3D-Space—MyCart</title>
+=======
+  <title>Show dbq</title>
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 
   <!-- Set render engine for 360 browser -->
   <meta name="renderer" content="webkit">
@@ -65,9 +69,15 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
+<<<<<<< HEAD
   		<li><a href="/3D-Space/goTo.do?flag=GoToHomePage" >HomePage</a></li>
         <li><a href="/3D-Space/goTo.do?flag=GoToCustomize">Customize</a></li>
         <li class="active"><a href="/3D-Space/goTo.do?flag=GoToShoppingCart">My Cart<span class="sr-only">(current)</span></a></li>
+=======
+  		<li class="active"><a href="/3D-Space/goTo.do?flag=GoToHomePage" >HomePage<span class="sr-only">(current)</span></a></li>
+        <li><a href="#">Customize</a></li>
+        <li><a href="/3D-Space/goTo.do?flag=GoToShoppingCart">My Cart</a></li>
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
         <li><a href="/3D-Space/goTo.do?flag=GoToMyOrders">My Order</a></li>
          <li><a href="/3D-Space/goTo.do?flag=GoToMyFavorites">MyFavorites</a></li>
         
@@ -80,7 +90,11 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
     
       </form>
       <ul class="nav navbar-nav navbar-left" style = "width:40px">
+<<<<<<< HEAD
         <li><a href="/3D-Space">Login/Register</a></li>
+=======
+        <li><a href="/3D-Space/goTo.do?flag=GoToLoginRegister">Login/Register</a></li>
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
     </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->

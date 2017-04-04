@@ -42,12 +42,21 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 <%--java片段方法--%>
 <% 
 	Cookie cookies[]=request.getCookies();
+<<<<<<< HEAD
 	String userId="";
 	String userPassword="";
 	if(cookies!=null){
 		for(Cookie cookie:cookies){
 			if(cookie.getName().equals("userId")){
 				userId=cookie.getValue();
+=======
+	String userPhoneNumber="";
+	String userPassword="";
+	if(cookies!=null){
+		for(Cookie cookie:cookies){
+			if(cookie.getName().equals("userPhoneNumber")){
+				userPhoneNumber=cookie.getValue();
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 			}
 		}
 		for(Cookie cookie:cookies){
@@ -77,6 +86,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 --%>
 <body style = "background-color:rgb(238,238,238);">
 	<div style = "height:600px">
+<<<<<<< HEAD
 		<div style="height:100px;width:380px;margin-left: auto;
 margin-right: auto;">
         <br><br>
@@ -91,6 +101,25 @@ margin-right: auto;">
         <label for="inputEmail" class="sr-only">Email address</label>
         
         <input type="text" name="userId" value="<%=userId%>" class="form-control" placeholder="Id" required autofocus>
+=======
+		<div style="height:100px;width:380px;margin-left: auto;margin-right: auto;">
+        <%-- <h1>LOGO预留位置</h1> --%>
+	    <br>
+	    <br>
+	    &nbsp&nbsp<img src='/3D-Space/img/key.gif'/>
+	    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+	    <img src='/3D-Space/img/key.gif'/> <hr/>
+        
+		</div>
+		<div class="container" style="width:400px;margin-top:50px">
+		
+		<form class="form-signin" action = '/3D-Space/signIn.do' method = 'post'>
+		
+        <h2 class="form-signin-heading">Please sign in</h2>
+        <label for="inputEmail" class="sr-only">Email address</label>
+        
+        <input type="text" name="userPhoneNumber" value="<%=userPhoneNumber%>" class="form-control" placeholder="PhoneNumber" required autofocus>
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
         <br>
 			<label for="inputPassword" class="sr-only">Password</label>
 			<input type="password" name = "userPassword" value="<%=userPassword%>" class="form-control" placeholder="Password" required>

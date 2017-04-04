@@ -42,9 +42,14 @@ margin-right: auto;">
     <div class="container" style="width:400px;margin-top:50px"> 
 		<form class="form-signin" action = '/3D-Space/signUp.do' method = 'post'>
 		<h4 class="form-signin-heading">SignUp Ok!</h4><br/>
+<<<<<<< HEAD
 		<h4 class="form-signin-heading">Your UserId is:1326658627</h4><br/>
 		<h4 class="form-signin-heading">Please keep it well!</h4><br/>
 		<a href="/3D-Space">
+=======
+		
+		<a href="/3D-Space/goTo.do?flag=GoToLoginRegister">
+>>>>>>> 03f86a12ee4e81a41c4c70c02f0595697cb7bf3d
 		<h4 class="form-signin-heading"> Back to SignIn page</h4>
 		</a>
     </div> <!-- /container -->
